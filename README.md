@@ -1,4 +1,4 @@
-## Welcome to Paper Scripting
+## Welcome to Paper Scripting - ASPI STYLES
 
 A paper scripting is a web application for enchanching the user experience & user interaction of end user which interactive style as-components. for creating Mobile/Desktop Applications. like wise platform independent applications.
 
@@ -35,7 +35,7 @@ $as-happy: #d81b60;
 - Panel
 
 
-You can view the application here  [A Scripting paper innovation](https://creativecoderone.github.io/css/)
+You can view the application here  [A Scripting Paper Innovation](https://creativecoderone.github.io/css/)
 
 #Features
 
