@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+## Welcome to Paper Scripting
 
-You can use the [editor on GitHub](https://github.com/creativecoderone/css/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A paper scripting is a web application for enchanching the user experience & user interaction of end user which interactive style as-components. for creating Mobile/Desktop Applications. like wise platform independent applications.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CSS Based style scripting which achives the goal by root color cores.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+$as-base: #000000;
+$as-primary: #00b0ff;
+$as-danger: #d50000;
+$as-success: #aeea00;
+$as-info: #b3e5fc;
+$as-warning: #ffab00;
+$as-light: #e0e0e0;
+$as-dark: #78909c;
+$as-winner: #0d47a1;
+$as-happy: #d81b60;
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+#Components of Aspi
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/creativecoderone/css/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Alert
+- Align
+- Badge
+- Buttons
+- Card
+- Drop downs
+- Grid System
+- List groups
+- Forms
+- Input groups
+- Navbar
+- Window
+- Panel
+
+
+You can view the application here  [A Scripting paper innovation](https://creativecoderone.github.io/css/)
+
+#Features
+
+  The initial goal of the application is to provide end to end styling instructions over `classes` and `id` of markup elements and
+ the style classes have prefix of _as-_  followed by the appropriate functional style class item.
+ 
+ 1. Cleared end to  end use of style classes.
+ 2. Providing element based Interaction.
+ 3. MarkUp viewer.
+ 4. Copy Style Script over UI components.
+ 5. Easy naigation.
+ 6. Functinality to write own Style/UI/Creative articles.
+ 7. No database application.
+ 8. No login / Login based Interaction
+ 9. Improved style UI.
+
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://github.com/creativecoderone/css/edit/master/README.md) or [contact support](mailto://creativecoderone@gmail.com) and we’ll help you sort it out.
+ 
