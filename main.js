@@ -63,7 +63,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--<i style=\"text-align: right\" class=\"as-show-i fas fa-arrow-alt-circle-left\" uk-close></i>-->\n<img src=\"https://image.flaticon.com/icons/png/512/2089/2089793.png\" class=\"as-hide-i\" style=\"width: 50px;cursor:pointer;\"\n  href=\"#offcanvas-usage\" uk-toggle>\n\n\n<div class=\"container\" *ngIf=\"git\">\n  <h1> A scripting paper</h1>\n  <app-update></app-update>\n  <app-folders></app-folders>\n  <app-info></app-info>\n\n</div>\n<div class=\"container\" *ngIf=\"!git\">\n  <h1> A scripting paper</h1>\n  <app-alert *ngIf=\"appid=='alert'\"></app-alert>\n  <app-align *ngIf=\"appid=='align'\"></app-align>\n  <app-badge *ngIf=\"appid=='badge'\"></app-badge>\n  <app-buttons *ngIf=\"appid=='button'\"></app-buttons>\n  <app-card *ngIf=\"appid=='card'\"></app-card>\n  <app-dropdown *ngIf=\"appid=='dropdown'\"></app-dropdown>\n  <app-grid *ngIf=\"appid=='grids'\"></app-grid>\n  <app-list *ngIf=\"appid=='list'\"></app-list>\n  <app-forms *ngIf=\"appid=='forms'\"></app-forms>\n  <app-group *ngIf=\"appid=='group'\"></app-group>\n  <app-panel *ngIf=\"appid=='panel'\"></app-panel>\n  <app-dialog *ngIf=\"appid=='dialog'\"></app-dialog>\n  <app-nav *ngIf=\"appid=='nav'\"></app-nav>\n  <app-window *ngIf=\"appid=='window'\"></app-window>\n  <app-table *ngIf=\"appid=='table'\"></app-table>\n  <app-animate *ngIf=\"appid=='animate'\"></app-animate>\n</div>\n<app-vilot *ngIf=\"appid=='vilot'\"></app-vilot>\n<app-yellow *ngIf=\"appid=='yellow'\"></app-yellow>\n\n<div>\n  <router-outlet></router-outlet>\n</div>\n<div id=\"offcanvas-usage\" uk-offcanvas>\n  <div class=\"uk-offcanvas-bar\">\n    <button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>\n    <h3>Components</h3>\n    <div class=\"\">\n      <a href=\"#alert\" (click)=\"appid='alert'\" class=\"as-badge as-alert-primary\">Alert</a>\n      <a href=\"#animate\" (click)=\"appid='animate'\" class=\"as-badge as-alert-primary\">Animate</a>\n      <a href=\"#align\" (click)=\"appid='align'\" class=\"as-badge as-alert-primary\">Align text</a>\n      <a href=\"#grids\" (click)=\"appid='grids'\" class=\"as-badge as-alert-primary\">Grid system</a>\n      <a href=\"#badge\" (click)=\"appid='badge'\" class=\"as-badge as-alert-primary\">Badge</a>\n      <a href=\"#button\" (click)=\"appid='button'\" class=\"as-badge as-alert-primary\">Buttons</a>\n      <a href=\"#card\" (click)=\"appid='card'\" class=\"as-badge as-alert-primary\">Cards</a>\n      <a href=\"#drops\" (click)=\"appid='dropdown'\" class=\"as-badge as-alert-primary\">Dropdown</a>\n      <a href=\"#list\" (click)=\"appid='list'\" class=\"as-badge as-alert-primary\">List group</a>\n      <a href=\"#forms\" (click)=\"appid='forms'\" class=\"as-badge as-alert-primary\">Forms</a>\n      <a href=\"#group\" (click)=\"appid='group'\" class=\"as-badge as-alert-primary\">Group input &amp; Buttons</a>\n      <a href=\"#panel\" (click)=\"appid='panel'\" class=\"as-badge as-alert-primary\">Panel</a>\n      <a href=\"#dialog\" (click)=\"appid='dialog'\" class=\"as-badge as-alert-primary\">Dialog box</a>\n      <a href=\"#nav\" (click)=\"appid='nav'\" class=\"as-badge as-alert-primary\">Navbar</a>\n      <a href=\"#table\" (click)=\"appid='table'\" class=\"as-badge as-alert-primary\">Table</a>\n      <a href=\"#window\" (click)=\"appid='window'\" class=\"as-badge as-alert-primary\">Window</a>\n      <a href=\"#vilot\" (click)=\"appid='vilot'\" class=\"as-badge as-alert-primary\">Vilot</a>\n      <a href=\"#yellow\" (click)=\"appid='yellow'\" class=\"as-badge as-alert-primary\">Yellow</a>\n\n    </div>\n\n  </div>\n</div>\n<a class=\"as-top\" href=\"#\" uk-totop uk-scroll></a>\n"
+module.exports = "<!--<i style=\"text-align: right\" class=\"as-show-i fas fa-arrow-alt-circle-left\" uk-close></i>-->\n<img src=\"https://image.flaticon.com/icons/png/512/2089/2089793.png\" class=\"as-hide-i\" style=\"width: 50px;cursor:pointer;\"\n  href=\"#offcanvas-usage\" uk-toggle>\n\n\n<div class=\"container\" *ngIf=\"git\">\n  <h1> A scripting paper</h1>\n</div>\n<div class=\"container\" *ngIf=\"!git\">\n  <h1> A scripting paper</h1>\n  <app-alert *ngIf=\"appid=='alert'\"></app-alert>\n  <app-align *ngIf=\"appid=='align'\"></app-align>\n  <app-badge *ngIf=\"appid=='badge'\"></app-badge>\n  <app-buttons *ngIf=\"appid=='button'\"></app-buttons>\n  <app-card *ngIf=\"appid=='card'\"></app-card>\n  <app-dropdown *ngIf=\"appid=='dropdown'\"></app-dropdown>\n  <app-grid *ngIf=\"appid=='grids'\"></app-grid>\n  <app-list *ngIf=\"appid=='list'\"></app-list>\n  <app-forms *ngIf=\"appid=='forms'\"></app-forms>\n  <app-group *ngIf=\"appid=='group'\"></app-group>\n  <app-panel *ngIf=\"appid=='panel'\"></app-panel>\n  <app-dialog *ngIf=\"appid=='dialog'\"></app-dialog>\n  <app-nav *ngIf=\"appid=='nav'\"></app-nav>\n  <app-window *ngIf=\"appid=='window'\"></app-window>\n  <app-table *ngIf=\"appid=='table'\"></app-table>\n  <app-animate *ngIf=\"appid=='animate'\"></app-animate>\n</div>\n<app-editor *ngIf=\"appid=='editor'\"></app-editor>\n<app-vilot *ngIf=\"appid=='vilot'\"></app-vilot>\n<app-yellow *ngIf=\"appid=='yellow'\"></app-yellow>\n\n<div>\n  <router-outlet></router-outlet>\n</div>\n<div id=\"offcanvas-usage\" uk-offcanvas>\n  <div class=\"uk-offcanvas-bar\">\n    <button class=\"uk-offcanvas-close\" type=\"button\" uk-close></button>\n    <h3>Components</h3>\n    <div class=\"\">\n      <a href=\"#alert\" (click)=\"appid='alert'\" class=\"as-badge as-alert-primary\">Alert</a>\n      <a href=\"#animate\" (click)=\"appid='animate'\" class=\"as-badge as-alert-primary\">Animate</a>\n      <a href=\"#align\" (click)=\"appid='align'\" class=\"as-badge as-alert-primary\">Align text</a>\n      <a href=\"#grids\" (click)=\"appid='grids'\" class=\"as-badge as-alert-primary\">Grid system</a>\n      <a href=\"#badge\" (click)=\"appid='badge'\" class=\"as-badge as-alert-primary\">Badge</a>\n      <a href=\"#button\" (click)=\"appid='button'\" class=\"as-badge as-alert-primary\">Buttons</a>\n      <a href=\"#card\" (click)=\"appid='card'\" class=\"as-badge as-alert-primary\">Cards</a>\n      <a href=\"#drops\" (click)=\"appid='dropdown'\" class=\"as-badge as-alert-primary\">Dropdown</a>\n      <a href=\"#list\" (click)=\"appid='list'\" class=\"as-badge as-alert-primary\">List group</a>\n      <a href=\"#forms\" (click)=\"appid='forms'\" class=\"as-badge as-alert-primary\">Forms</a>\n      <a href=\"#group\" (click)=\"appid='group'\" class=\"as-badge as-alert-primary\">Group input &amp; Buttons</a>\n      <a href=\"#panel\" (click)=\"appid='panel'\" class=\"as-badge as-alert-primary\">Panel</a>\n      <a href=\"#dialog\" (click)=\"appid='dialog'\" class=\"as-badge as-alert-primary\">Dialog box</a>\n      <a href=\"#nav\" (click)=\"appid='nav'\" class=\"as-badge as-alert-primary\">Navbar</a>\n      <a href=\"#table\" (click)=\"appid='table'\" class=\"as-badge as-alert-primary\">Table</a>\n      <a href=\"#window\" (click)=\"appid='window'\" class=\"as-badge as-alert-primary\">Window</a>\n      <a href=\"#vilot\" (click)=\"appid='vilot'\" class=\"as-badge as-alert-primary\">Vilot</a>\n      <a href=\"#yellow\" (click)=\"appid='yellow'\" class=\"as-badge as-alert-primary\">Yellow</a>\n      <a href=\"#editor\" (click)=\"appid='editor'\" class=\"as-badge as-alert-primary\">Editor</a>\n    </div>\n\n  </div>\n</div>\n<a class=\"as-top\" href=\"#\" uk-totop uk-scroll></a>\n"
 
 /***/ }),
 
@@ -102,6 +102,11 @@ var AppComponent = /** @class */ (function () {
     AppComponent.prototype.ngOnInit = function () {
         if (window.location.hash.split("#")[1] !== undefined) {
             this.appid = window.location.hash.split("#")[1];
+        }
+        if (window.location.hash.split("#")[1] === "afol" ||
+            window.location.hash.split("#")[1] === "ainfo" ||
+            window.location.hash.split("#")[1] === "acur") {
+            this.appid = "editor";
         }
         else {
             this.appid = "alert";
@@ -170,6 +175,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _comp_animate_animate_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./comp/animate/animate.component */ "./src/app/comp/animate/animate.component.ts");
 /* harmony import */ var _theme_vilot_vilot_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./theme/vilot/vilot.component */ "./src/app/theme/vilot/vilot.component.ts");
 /* harmony import */ var _theme_yellow_yellow_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./theme/yellow/yellow.component */ "./src/app/theme/yellow/yellow.component.ts");
+/* harmony import */ var _theme_editor_editor_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./theme/editor/editor.component */ "./src/app/theme/editor/editor.component.ts");
+/* harmony import */ var ng2_search_filter__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ng2-search-filter */ "./node_modules/ng2-search-filter/ng2-search-filter.es5.js");
+/* harmony import */ var ngx_filter_pipe__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ngx-filter-pipe */ "./node_modules/ngx-filter-pipe/esm5/ngx-filter-pipe.js");
+/* harmony import */ var src_app_sanitaizer_pipe__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! src/app/sanitaizer.pipe */ "./src/app/sanitaizer.pipe.ts");
+/* harmony import */ var src_app_services_speech__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! src/app/services/speech */ "./src/app/services/speech.ts");
+
+
+
+
+
 
 
 
@@ -208,6 +223,7 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
                 _comp_alert_alert_component__WEBPACK_IMPORTED_MODULE_6__["AlertComponent"],
                 _comp_grid_grid_component__WEBPACK_IMPORTED_MODULE_7__["GridComponent"],
+                src_app_sanitaizer_pipe__WEBPACK_IMPORTED_MODULE_32__["SanitaizerPipe"],
                 _comp_badge_badge_component__WEBPACK_IMPORTED_MODULE_8__["BadgeComponent"],
                 _comp_align_align_component__WEBPACK_IMPORTED_MODULE_9__["AlignComponent"],
                 _comp_card_card_component__WEBPACK_IMPORTED_MODULE_10__["CardComponent"],
@@ -226,16 +242,20 @@ var AppModule = /** @class */ (function () {
                 _comp_table_table_component__WEBPACK_IMPORTED_MODULE_25__["TableComponent"],
                 _comp_animate_animate_component__WEBPACK_IMPORTED_MODULE_26__["AnimateComponent"],
                 _theme_vilot_vilot_component__WEBPACK_IMPORTED_MODULE_27__["VilotComponent"],
-                _theme_yellow_yellow_component__WEBPACK_IMPORTED_MODULE_28__["YellowComponent"]
+                _theme_yellow_yellow_component__WEBPACK_IMPORTED_MODULE_28__["YellowComponent"],
+                _theme_editor_editor_component__WEBPACK_IMPORTED_MODULE_29__["EditorComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_21__["HttpClientModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+                ngx_filter_pipe__WEBPACK_IMPORTED_MODULE_31__["FilterPipeModule"],
+                ng2_search_filter__WEBPACK_IMPORTED_MODULE_30__["Ng2SearchPipeModule"],
                 ngx_clipboard__WEBPACK_IMPORTED_MODULE_22__["ClipboardModule"]
             ],
-            providers: [],
+            exports: [src_app_sanitaizer_pipe__WEBPACK_IMPORTED_MODULE_32__["SanitaizerPipe"]],
+            providers: [src_app_services_speech__WEBPACK_IMPORTED_MODULE_33__["SpeechRecognitionService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
         })
     ], AppModule);
@@ -1156,7 +1176,7 @@ var WindowComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"as-site\">\n  <h3>Folders info</h3>\n  <table class=\"uk-table uk-table-justify uk-table-divider\">\n    <thead>\n      <th>\n        Name\n      </th>\n      <th>\n        Size\n      </th>\n      <th>\n        SHA\n      </th>\n      <th>\n        URL\n      </th>\n      <!--<th>\n        Encoding\n      </th>-->\n      <th>\n        HTML\n      </th>\n      <th>\n        GIT\n      </th>\n      <th>\n        Download\n      </th>\n      <th>\n        Self\n      </th>\n      <th>\n        GIT\n      </th>\n      <th>\n        HTML\n      </th>\n      <th>\n        Content\n      </th>\n      <th>\n        View more\n      </th>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let item of readme\">\n        <td> <span ngxClipboard [cbContent]=\"item?.name\" class=\"as-badge as-bg-winner\"> {{item?.name}}</span> </td>\n        <td> <span ngxClipboard [cbContent]=\"item?.size\" class=\"as-badge as-bg-winner\">Copy</span></td>\n        <td> <span ngxClipboard [cbContent]=\"item?.sha\" class=\"as-badge as-bg-winner\">Copy</span> </td>\n        <td>\n          <a [href]=\"item?.url\">\n           <span class=\"as-badge as-bg-winner\">URL</span>\n        </a>\n        </td>\n        <!--<td>\n          <span ngxClipboard [cbContent]=\"item?.encoding\" class=\"as-badge as-bg-winner\">Copy</span>\n        </td>-->\n        <td>\n          <a [href]=\"item?.html_url\">\n                  <span class=\"as-badge as-bg-winner\">HTML</span>\n                </a>\n        </td>\n        <td> <a [href]=\"item?.git_url\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a></td>\n        <td> <a [href]=\"item?.download_url\" [download]=\"item?.download_url\">\n          <span class=\"as-badge as-bg-winner\">Download</span>\n        </a></td>\n        <td> <a [href]=\"item?._links?.self\">\n          <span class=\"as-badge as-bg-winner\">SELF</span>\n        </a></td>\n        <td> <a [href]=\"item?._links?.git\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a></td>\n        <td> <a [href]=\"item?._links?.html\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a></td>\n        <td> <a [href]=\"item?._links?.html\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a></td>\n        <td>\n          <a (click)=\"subs = item\" class=\"as-badge as-bg-winner\" href=\"#modal-container\" uk-toggle>Open</a>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n\n\n  <div id=\"modal-container\" class=\"uk-modal-container\" uk-modal>\n    <div class=\"uk-modal-dialog uk-modal-body\">\n      <button class=\"uk-modal-close-default\" type=\"button\" uk-close></button>\n      <h2 class=\"uk-modal-title\">{{subs?.name}} </h2>\n      <table class=\"uk-table uk-table-justify uk-table-divider\">\n        <thead>\n          <tr>\n            <th class=\"uk-width-small\">Name</th>\n            <th>File/URL</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>Name</td>\n            <td>{{subs?.name}} </td>\n          </tr>\n          <tr>\n            <td>Size</td>\n            <td>{{subs?.size}} </td>\n          </tr>\n          <tr>\n            <td>SHA</td>\n            <td>{{subs?.sha}} </td>\n          </tr>\n          <tr>\n            <td>URL</td>\n            <td>{{subs?.url}} </td>\n          </tr>\n          <!--<tr>\n            <td>Encoding</td>\n            <td>{{subs?.encoding}} </td>\n          </tr>-->\n          <tr>\n            <td>HTML URL</td>\n            <td>{{subs?.html_url}}</td>\n          </tr>\n          <tr>\n            <td>GIT URL</td>\n            <td>{{subs?.git_url}}</td>\n          </tr>\n          <tr>\n            <td>Download URL</td>\n            <td>{{subs?.download_url}}</td>\n          </tr>\n          <tr>\n            <td>Self</td>\n            <td>{{subs?._links?.self}}</td>\n          </tr>\n          <tr>\n            <td>GIT</td>\n            <td>{{subs?._links?.git}}</td>\n          </tr>\n          <tr>\n            <td>HTML</td>\n            <td>{{subs?._links?.html}}</td>\n          </tr>\n          <!--<tr>\n            <td>Content</td>\n            <td>{{subs?.content}}</td>\n          </tr>-->\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"as-site\">\n  <h3>Folders info</h3>\n  <div class=\"card card-body\">\n    <table class=\"uk-table\">\n      <thead>\n        <th>\n          Name\n        </th>\n        <th>\n          Size\n        </th>\n        <th>\n          SHA\n        </th>\n        <th>\n          URL\n        </th>\n        <!--<th>\n        Encoding\n      </th>-->\n        <th>\n          HTML\n        </th>\n        <th>\n          GIT\n        </th>\n        <th>\n          Download\n        </th>\n        <th>\n          Self\n        </th>\n        <th>\n          GIT\n        </th>\n        <th>\n          HTML\n        </th>\n        <th>\n          Content\n        </th>\n        <th>\n          View more\n        </th>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let item of readme\">\n          <td> <span ngxClipboard [cbContent]=\"item?.name\" class=\"as-badge as-bg-winner\"> {{item?.name}}</span> </td>\n          <td> <span ngxClipboard [cbContent]=\"item?.size\" class=\"as-badge as-bg-winner\">Copy</span></td>\n          <td> <span ngxClipboard [cbContent]=\"item?.sha\" class=\"as-badge as-bg-winner\">Copy</span> </td>\n          <td>\n            <a [href]=\"item?.url\">\n           <span class=\"as-badge as-bg-winner\">URL</span>\n        </a>\n          </td>\n          <!--<td>\n          <span ngxClipboard [cbContent]=\"item?.encoding\" class=\"as-badge as-bg-winner\">Copy</span>\n        </td>-->\n          <td>\n            <a [href]=\"item?.html_url\">\n                  <span class=\"as-badge as-bg-winner\">HTML</span>\n                </a>\n          </td>\n          <td> <a [href]=\"item?.git_url\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a></td>\n          <td> <a [href]=\"item?.download_url\" [download]=\"item?.download_url\">\n          <span class=\"as-badge as-bg-winner\">Download</span>\n        </a></td>\n          <td> <a [href]=\"item?._links?.self\">\n          <span class=\"as-badge as-bg-winner\">SELF</span>\n        </a></td>\n          <td> <a [href]=\"item?._links?.git\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a></td>\n          <td> <a [href]=\"item?._links?.html\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a></td>\n          <td> <a [href]=\"item?._links?.html\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a></td>\n          <td>\n            <a (click)=\"subs = item\" class=\"as-badge as-bg-winner\" href=\"#modal-container\" uk-toggle>Open</a>\n          </td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n\n\n  <div id=\"modal-container\" class=\"uk-modal-container\" uk-modal>\n    <div class=\"uk-modal-dialog uk-modal-body\">\n      <button class=\"uk-modal-close-default\" type=\"button\" uk-close></button>\n      <h2 class=\"uk-modal-title\">{{subs?.name}} </h2>\n      <div class=\"card card-body\">\n        <table class=\"uk-table\">\n          <thead>\n            <tr>\n              <th class=\"uk-width-small\">Name</th>\n              <th>File/URL</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>Name</td>\n              <td>{{subs?.name}} </td>\n            </tr>\n            <tr>\n              <td>Size</td>\n              <td>{{subs?.size}} </td>\n            </tr>\n            <tr>\n              <td>SHA</td>\n              <td>{{subs?.sha}} </td>\n            </tr>\n            <tr>\n              <td>URL</td>\n              <td>{{subs?.url}} </td>\n            </tr>\n            <!--<tr>\n            <td>Encoding</td>\n            <td>{{subs?.encoding}} </td>\n          </tr>-->\n            <tr>\n              <td>HTML URL</td>\n              <td>{{subs?.html_url}}</td>\n            </tr>\n            <tr>\n              <td>GIT URL</td>\n              <td>{{subs?.git_url}}</td>\n            </tr>\n            <tr>\n              <td>Download URL</td>\n              <td>{{subs?.download_url}}</td>\n            </tr>\n            <tr>\n              <td>Self</td>\n              <td>{{subs?._links?.self}}</td>\n            </tr>\n            <tr>\n              <td>GIT</td>\n              <td>{{subs?._links?.git}}</td>\n            </tr>\n            <tr>\n              <td>HTML</td>\n              <td>{{subs?._links?.html}}</td>\n            </tr>\n            <!--<tr>\n            <td>Content</td>\n            <td>{{subs?.content}}</td>\n          </tr>-->\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1167,7 +1187,7 @@ module.exports = "<div class=\"as-site\">\n  <h3>Folders info</h3>\n  <table cla
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".as-site {\n  margin: 30px 0px; }\n\n.as-json {\n  word-wrap: break-word;\n  word-break: break-all; }\n\n.as-badge {\n  padding: 5px;\n  cursor: pointer;\n  border-radius: 3px;\n  width: 100%;\n  margin: 5px;\n  padding: 4px;\n  float: right;\n  font-size: 12px;\n  display: inline-block;\n  border-radius: 5px;\n  border: 1px solid white;\n  text-align: center;\n  text-decoration: none;\n  -webkit-transition: background-color 1s ease-in-out;\n  transition: background-color 1s ease-in-out; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-primary {\n  background-color: #00b0ff;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-danger {\n  background-color: #d50000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-success {\n  background-color: #aeea00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-info {\n  background-color: #b3e5fc;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-warning {\n  background-color: #ffab00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-light {\n  background-color: #e0e0e0;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-dark {\n  background-color: #78909c;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-winner {\n  background-color: #0d47a1;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-happy {\n  background-color: #d81b60;\n  color: white;\n  border-radius: 4px; }\n\n.as-circle-sm {\n  border-radius: 15px;\n  padding: 5px; }\n\ntable {\n  word-wrap: break-word;\n  word-break: break-all; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2l0L2ZvbGRlcnMvQzpcXFVzZXJzXFxtYW5vbXV0aFxcRGVza3RvcFxcV29ya0Zyb21IZXJlXFxTdGFydEhlcmVcXGFwcGxpY2F0aW9uLXdvcmtIZXJlXFxhc3BpLWNzcy9zcmNcXGFwcFxcZ2l0XFxmb2xkZXJzXFxmb2xkZXJzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWdCLEVBQ2pCOztBQUNEO0VBQ0Usc0JBQXFCO0VBQ3JCLHNCQUFxQixFQUN0Qjs7QUFXRDtFQUNFLGFBQVk7RUFDWixnQkFBZTtFQUNmLG1CQUFrQjtFQUNsQixZQUFXO0VBQ1gsWUFBVztFQUNYLGFBQVk7RUFDWixhQUFZO0VBQ1osZ0JBQWU7RUFDZixzQkFBcUI7RUFDckIsbUJBQWtCO0VBQ2xCLHdCQUF1QjtFQUN2QixtQkFBa0I7RUFDbEIsc0JBQXFCO0VBQ3JCLG9EQUEyQztFQUEzQyw0Q0FBMkMsRUFDNUM7O0FBRUQ7RUFDRSwwQkE1QmU7RUE2QmYsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQWpDZTtFQWtDZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBckNrQjtFQXNDbEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXpDaUI7RUEwQ2pCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkE3Q2tCO0VBOENsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakRlO0VBa0RmLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkFyRGtCO0VBc0RsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBekRnQjtFQTBEaEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQTdEZTtFQThEZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakVpQjtFQWtFakIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXJFZ0I7RUFzRWhCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSxvQkFBbUI7RUFDbkIsYUFBWSxFQUNiOztBQUNEO0VBQ0Usc0JBQXFCO0VBQ3JCLHNCQUFxQixFQUN0QiIsImZpbGUiOiJzcmMvYXBwL2dpdC9mb2xkZXJzL2ZvbGRlcnMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXMtc2l0ZSB7XHJcbiAgbWFyZ2luOiAzMHB4IDBweDtcclxufVxyXG4uYXMtanNvbiB7XHJcbiAgd29yZC13cmFwOiBicmVhay13b3JkO1xyXG4gIHdvcmQtYnJlYWs6IGJyZWFrLWFsbDtcclxufVxyXG4kYXMtYmFzZTogIzAwMDAwMDtcclxuJGFzLXByaW1hcnk6ICMwMGIwZmY7XHJcbiRhcy1kYW5nZXI6ICNkNTAwMDA7XHJcbiRhcy1zdWNjZXNzOiAjYWVlYTAwO1xyXG4kYXMtaW5mbzogI2IzZTVmYztcclxuJGFzLXdhcm5pbmc6ICNmZmFiMDA7XHJcbiRhcy1saWdodDogI2UwZTBlMDtcclxuJGFzLWRhcms6ICM3ODkwOWM7XHJcbiRhcy13aW5uZXI6ICMwZDQ3YTE7XHJcbiRhcy1oYXBweTogI2Q4MWI2MDtcclxuLmFzLWJhZGdlIHtcclxuICBwYWRkaW5nOiA1cHg7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIGJvcmRlci1yYWRpdXM6IDNweDtcclxuICB3aWR0aDogMTAwJTtcclxuICBtYXJnaW46IDVweDtcclxuICBwYWRkaW5nOiA0cHg7XHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIGZvbnQtc2l6ZTogMTJweDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkIHdoaXRlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAxcyBlYXNlLWluLW91dDtcclxufVxyXG5cclxuLmFzLWJnLWJhc2Uge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1iYXNlO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLWJhc2Uge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1iYXNlO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLXByaW1hcnkge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1wcmltYXJ5O1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLWRhbmdlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWRhbmdlcjtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1zdWNjZXNzIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtc3VjY2VzcztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1pbmZvIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtaW5mbztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy13YXJuaW5nIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtd2FybmluZztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1saWdodCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWxpZ2h0O1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLWRhcmsge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1kYXJrO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLXdpbm5lciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXdpbm5lcjtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1oYXBweSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWhhcHB5O1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWNpcmNsZS1zbSB7XHJcbiAgYm9yZGVyLXJhZGl1czogMTVweDtcclxuICBwYWRkaW5nOiA1cHg7XHJcbn1cclxudGFibGUge1xyXG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDtcclxuICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XHJcbn1cclxuIl19 */"
+module.exports = ".as-site {\n  margin: 30px 0px; }\n\n.as-json {\n  word-wrap: break-word;\n  word-break: break-all; }\n\n.as-badge {\n  padding: 5px;\n  cursor: pointer;\n  border-radius: 3px;\n  width: 100%;\n  margin: 5px;\n  padding: 4px;\n  float: right;\n  font-size: 12px;\n  display: inline-block;\n  border-radius: 5px;\n  border: 1px solid white;\n  text-align: center;\n  text-decoration: none;\n  -webkit-transition: background-color 1s ease-in-out;\n  transition: background-color 1s ease-in-out; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-primary {\n  background-color: #00b0ff;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-danger {\n  background-color: #d50000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-success {\n  background-color: #aeea00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-info {\n  background-color: #b3e5fc;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-warning {\n  background-color: #ffab00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-light {\n  background-color: #e0e0e0;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-dark {\n  background-color: #78909c;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-winner {\n  background-color: #0d47a1;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-happy {\n  background-color: #d81b60;\n  color: white;\n  border-radius: 4px; }\n\n.as-circle-sm {\n  border-radius: 15px;\n  padding: 5px; }\n\ntable {\n  word-wrap: break-word;\n  word-break: normal; }\n\n.table-mob {\n  width: 100%;\n  overflow: auto; }\n\n.card {\n  overflow: auto; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2l0L2ZvbGRlcnMvQzpcXFVzZXJzXFxtYW5vbXV0aFxcRGVza3RvcFxcV29ya0Zyb21IZXJlXFxTdGFydEhlcmVcXGFwcGxpY2F0aW9uLXdvcmtIZXJlXFxhc3BpLWNzcy9zcmNcXGFwcFxcZ2l0XFxmb2xkZXJzXFxmb2xkZXJzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWdCLEVBQ2pCOztBQUNEO0VBQ0Usc0JBQXFCO0VBQ3JCLHNCQUFxQixFQUN0Qjs7QUFXRDtFQUNFLGFBQVk7RUFDWixnQkFBZTtFQUNmLG1CQUFrQjtFQUNsQixZQUFXO0VBQ1gsWUFBVztFQUNYLGFBQVk7RUFDWixhQUFZO0VBQ1osZ0JBQWU7RUFDZixzQkFBcUI7RUFDckIsbUJBQWtCO0VBQ2xCLHdCQUF1QjtFQUN2QixtQkFBa0I7RUFDbEIsc0JBQXFCO0VBQ3JCLG9EQUEyQztFQUEzQyw0Q0FBMkMsRUFDNUM7O0FBRUQ7RUFDRSwwQkE1QmU7RUE2QmYsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQWpDZTtFQWtDZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBckNrQjtFQXNDbEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXpDaUI7RUEwQ2pCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkE3Q2tCO0VBOENsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakRlO0VBa0RmLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkFyRGtCO0VBc0RsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBekRnQjtFQTBEaEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQTdEZTtFQThEZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakVpQjtFQWtFakIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXJFZ0I7RUFzRWhCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSxvQkFBbUI7RUFDbkIsYUFBWSxFQUNiOztBQUNEO0VBQ0Usc0JBQXFCO0VBQ3JCLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLFlBQVc7RUFDWCxlQUFjLEVBQ2Y7O0FBQ0Q7RUFDRSxlQUFjLEVBQ2YiLCJmaWxlIjoic3JjL2FwcC9naXQvZm9sZGVycy9mb2xkZXJzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFzLXNpdGUge1xyXG4gIG1hcmdpbjogMzBweCAwcHg7XHJcbn1cclxuLmFzLWpzb24ge1xyXG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDtcclxuICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XHJcbn1cclxuJGFzLWJhc2U6ICMwMDAwMDA7XHJcbiRhcy1wcmltYXJ5OiAjMDBiMGZmO1xyXG4kYXMtZGFuZ2VyOiAjZDUwMDAwO1xyXG4kYXMtc3VjY2VzczogI2FlZWEwMDtcclxuJGFzLWluZm86ICNiM2U1ZmM7XHJcbiRhcy13YXJuaW5nOiAjZmZhYjAwO1xyXG4kYXMtbGlnaHQ6ICNlMGUwZTA7XHJcbiRhcy1kYXJrOiAjNzg5MDljO1xyXG4kYXMtd2lubmVyOiAjMGQ0N2ExO1xyXG4kYXMtaGFwcHk6ICNkODFiNjA7XHJcbi5hcy1iYWRnZSB7XHJcbiAgcGFkZGluZzogNXB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBib3JkZXItcmFkaXVzOiAzcHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgbWFyZ2luOiA1cHg7XHJcbiAgcGFkZGluZzogNHB4O1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBmb250LXNpemU6IDEycHg7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMXMgZWFzZS1pbi1vdXQ7XHJcbn1cclxuXHJcbi5hcy1iZy1iYXNlIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtYmFzZTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1iYXNlIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtYmFzZTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1wcmltYXJ5IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtcHJpbWFyeTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1kYW5nZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1kYW5nZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctc3VjY2VzcyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXN1Y2Nlc3M7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctaW5mbyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWluZm87XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctd2FybmluZyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXdhcm5pbmc7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctbGlnaHQge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1saWdodDtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1kYXJrIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtZGFyaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy13aW5uZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy13aW5uZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctaGFwcHkge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1oYXBweTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1jaXJjbGUtc20ge1xyXG4gIGJvcmRlci1yYWRpdXM6IDE1cHg7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcbnRhYmxlIHtcclxuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XHJcbiAgd29yZC1icmVhazogbm9ybWFsO1xyXG59XHJcbi50YWJsZS1tb2Ige1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG92ZXJmbG93OiBhdXRvO1xyXG59XHJcbi5jYXJkIHtcclxuICBvdmVyZmxvdzogYXV0bztcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -1222,7 +1242,7 @@ var FoldersComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"as-site\">\n  <h3> {{readme?.name}}</h3>\n  <!--<div class=\"uk-card as-json uk-card-default uk-card-body uk-width-1-1@m\">\n    <h3 class=\"uk-card-title\">ReadMe</h3>\n    {{readme?.name}}\n    <br> {{readme?.size}}\n    <br>{{readme?.sha}}\n    <br>{{readme?.type}}\n    <br>{{readme?.encoding}}\n    <br>{{readme?.url}}\n    <br>{{readme?.html_url}}\n    <br>{{readme?.git_url}}\n    <br>{{readme?.download_url}}\n    <br> {{readme?.content}}\n    <br>{{readme?._links?.self}}\n    <br>{{readme?._links?.git}}\n    <br>{{readme?._links?.html}}\n    <br>\n  </div>-->\n</div>\n<table class=\"uk-table uk-table-justify uk-table-divider\">\n  <thead>\n    <tr>\n      <th class=\"uk-width-small\">Name</th>\n      <th>File/URL</th>\n      <th>Action</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Name</td>\n      <td>{{readme?.name}}</td>\n      <td> <span ngxClipboard [cbContent]=\"readme?.name\" class=\"as-badge as-bg-winner\">Copy</span>\n      </td>\n    </tr>\n    <tr>\n      <td>Size</td>\n      <td>{{readme?.size}}</td>\n      <td> <span ngxClipboard [cbContent]=\"readme?.size\" class=\"as-badge as-bg-winner\">Copy</span>\n      </td>\n    </tr>\n    <tr>\n      <td>SHA</td>\n      <td>{{readme?.sha}}</td>\n      <td> <span ngxClipboard [cbContent]=\"readme?.sha\" class=\"as-badge as-bg-winner\">Copy</span>\n      </td>\n    </tr>\n    <tr>\n      <td>URL</td>\n      <td>{{readme?.url}}</td>\n      <td>\n        <a [href]=\"readme?.url\">\n          <span class=\"as-badge as-bg-winner\">URL</span>\n        </a>\n      </td>\n    </tr>\n    <tr>\n      <td>Encoding</td>\n      <td>{{readme?.encoding}}</td>\n      <a>\n          <span  ngxClipboard [cbContent]=\"readme?.encoding\"  class=\"as-badge as-bg-winner\">Copy</span>\n        </a>\n    </tr>\n    <tr>\n      <td>HTML URL</td>\n      <td>{{readme?.html_url}}</td>\n      <a [href]=\"readme?.html_url\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a>\n    </tr>\n    <tr>\n      <td>GIT URL</td>\n      <td>{{readme?.git_url}}</td>\n      <a [href]=\"readme?.git_url\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a>\n    </tr>\n    <tr>\n      <td>Download URL</td>\n      <td>{{readme?.download_url}}</td>\n      <a [href]=\"readme?.download_url\">\n          <span class=\"as-badge as-bg-winner\">Download</span>\n        </a>\n    </tr>\n    <tr>\n      <td>Self</td>\n      <td>{{readme?._links?.self}}</td>\n      <a [href]=\"readme?._links?.self\">\n          <span class=\"as-badge as-bg-winner\">SELF</span>\n        </a>\n    </tr>\n    <tr>\n      <td>GIT</td>\n      <td>{{readme?._links?.git}}</td>\n      <a [href]=\"readme?._links?.git\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a>\n    </tr>\n    <tr>\n      <td>HTML</td>\n      <td>{{readme?._links?.html}}</td>\n      <a [href]=\"readme?._links?.html\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a>\n    </tr>\n    <tr>\n      <td>Content</td>\n      <td>{{readme?.content}}</td>\n      <a>\n          <span  ngxClipboard [cbContent]=\"readme?.content\"  class=\"as-badge as-bg-winner\">Copy</span>\n        </a>\n    </tr>\n  </tbody>\n</table>\n"
+module.exports = "<div class=\"as-site\">\n  <h3> {{readme?.name}}</h3>\n  <!--<div class=\"uk-card as-json uk-card-default uk-card-body uk-width-1-1@m\">\n    <h3 class=\"uk-card-title\">ReadMe</h3>\n    {{readme?.name}}\n    <br> {{readme?.size}}\n    <br>{{readme?.sha}}\n    <br>{{readme?.type}}\n    <br>{{readme?.encoding}}\n    <br>{{readme?.url}}\n    <br>{{readme?.html_url}}\n    <br>{{readme?.git_url}}\n    <br>{{readme?.download_url}}\n    <br> {{readme?.content}}\n    <br>{{readme?._links?.self}}\n    <br>{{readme?._links?.git}}\n    <br>{{readme?._links?.html}}\n    <br>\n  </div>-->\n</div>\n<div class=\"card card-body\">\n  <table class=\"uk-table uk-table-justify uk-table-divider\">\n    <thead>\n      <tr>\n        <th class=\"uk-width-small\">Name</th>\n        <th>File/URL</th>\n        <th>Action</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Name</td>\n        <td>{{readme?.name}}</td>\n        <td> <span ngxClipboard [cbContent]=\"readme?.name\" class=\"as-badge as-bg-winner\">Copy</span>\n        </td>\n      </tr>\n      <tr>\n        <td>Size</td>\n        <td>{{readme?.size}}</td>\n        <td> <span ngxClipboard [cbContent]=\"readme?.size\" class=\"as-badge as-bg-winner\">Copy</span>\n        </td>\n      </tr>\n      <tr>\n        <td>SHA</td>\n        <td>{{readme?.sha}}</td>\n        <td> <span ngxClipboard [cbContent]=\"readme?.sha\" class=\"as-badge as-bg-winner\">Copy</span>\n        </td>\n      </tr>\n      <tr>\n        <td>URL</td>\n        <td>{{readme?.url}}</td>\n        <td>\n          <a [href]=\"readme?.url\">\n          <span class=\"as-badge as-bg-winner\">URL</span>\n        </a>\n        </td>\n      </tr>\n      <tr>\n        <td>Encoding</td>\n        <td>{{readme?.encoding}}</td>\n        <a>\n          <span  ngxClipboard [cbContent]=\"readme?.encoding\"  class=\"as-badge as-bg-winner\">Copy</span>\n        </a>\n      </tr>\n      <tr>\n        <td>HTML URL</td>\n        <td>{{readme?.html_url}}</td>\n        <a [href]=\"readme?.html_url\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a>\n      </tr>\n      <tr>\n        <td>GIT URL</td>\n        <td>{{readme?.git_url}}</td>\n        <a [href]=\"readme?.git_url\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a>\n      </tr>\n      <tr>\n        <td>Download URL</td>\n        <td>{{readme?.download_url}}</td>\n        <a [href]=\"readme?.download_url\">\n          <span class=\"as-badge as-bg-winner\">Download</span>\n        </a>\n      </tr>\n      <tr>\n        <td>Self</td>\n        <td>{{readme?._links?.self}}</td>\n        <a [href]=\"readme?._links?.self\">\n          <span class=\"as-badge as-bg-winner\">SELF</span>\n        </a>\n      </tr>\n      <tr>\n        <td>GIT</td>\n        <td>{{readme?._links?.git}}</td>\n        <a [href]=\"readme?._links?.git\">\n          <span class=\"as-badge as-bg-winner\">GIT</span>\n        </a>\n      </tr>\n      <tr>\n        <td>HTML</td>\n        <td>{{readme?._links?.html}}</td>\n        <a [href]=\"readme?._links?.html\">\n          <span class=\"as-badge as-bg-winner\">HTML</span>\n        </a>\n      </tr>\n      <tr>\n        <td>Content</td>\n        <td>{{readme?.content}}</td>\n        <a>\n          <span  ngxClipboard [cbContent]=\"readme?.content\"  class=\"as-badge as-bg-winner\">Copy</span>\n        </a>\n      </tr>\n    </tbody>\n  </table>\n</div>\n"
 
 /***/ }),
 
@@ -1233,7 +1253,7 @@ module.exports = "<div class=\"as-site\">\n  <h3> {{readme?.name}}</h3>\n  <!--<
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".as-site {\n  margin: 30px 0px; }\n\n.as-json {\n  word-wrap: break-word;\n  word-break: break-all; }\n\n.as-badge {\n  padding: 5px;\n  cursor: pointer;\n  border-radius: 3px;\n  width: 100%;\n  margin: 5px;\n  padding: 4px;\n  float: right;\n  font-size: 12px;\n  display: inline-block;\n  border-radius: 5px;\n  border: 1px solid white;\n  text-align: center;\n  text-decoration: none;\n  -webkit-transition: background-color 1s ease-in-out;\n  transition: background-color 1s ease-in-out; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-primary {\n  background-color: #00b0ff;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-danger {\n  background-color: #d50000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-success {\n  background-color: #aeea00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-info {\n  background-color: #b3e5fc;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-warning {\n  background-color: #ffab00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-light {\n  background-color: #e0e0e0;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-dark {\n  background-color: #78909c;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-winner {\n  background-color: #0d47a1;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-happy {\n  background-color: #d81b60;\n  color: white;\n  border-radius: 4px; }\n\n.as-circle-sm {\n  border-radius: 15px;\n  padding: 5px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2l0L2luZm8vQzpcXFVzZXJzXFxtYW5vbXV0aFxcRGVza3RvcFxcV29ya0Zyb21IZXJlXFxTdGFydEhlcmVcXGFwcGxpY2F0aW9uLXdvcmtIZXJlXFxhc3BpLWNzcy9zcmNcXGFwcFxcZ2l0XFxpbmZvXFxpbmZvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWdCLEVBQ2pCOztBQUNEO0VBQ0Usc0JBQXFCO0VBQ3JCLHNCQUFxQixFQUN0Qjs7QUFXRDtFQUNFLGFBQVk7RUFDWixnQkFBZTtFQUNmLG1CQUFrQjtFQUNsQixZQUFXO0VBQ1gsWUFBVztFQUNYLGFBQVk7RUFDWixhQUFZO0VBQ1osZ0JBQWU7RUFDZixzQkFBcUI7RUFDckIsbUJBQWtCO0VBQ2xCLHdCQUF1QjtFQUN2QixtQkFBa0I7RUFDbEIsc0JBQXFCO0VBQ3JCLG9EQUEyQztFQUEzQyw0Q0FBMkMsRUFDNUM7O0FBRUQ7RUFDRSwwQkE1QmU7RUE2QmYsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQWpDZTtFQWtDZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBckNrQjtFQXNDbEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXpDaUI7RUEwQ2pCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkE3Q2tCO0VBOENsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakRlO0VBa0RmLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkFyRGtCO0VBc0RsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBekRnQjtFQTBEaEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQTdEZTtFQThEZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakVpQjtFQWtFakIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXJFZ0I7RUFzRWhCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSxvQkFBbUI7RUFDbkIsYUFBWSxFQUNiIiwiZmlsZSI6InNyYy9hcHAvZ2l0L2luZm8vaW5mby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hcy1zaXRlIHtcclxuICBtYXJnaW46IDMwcHggMHB4O1xyXG59XHJcbi5hcy1qc29uIHtcclxuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XHJcbiAgd29yZC1icmVhazogYnJlYWstYWxsO1xyXG59XHJcbiRhcy1iYXNlOiAjMDAwMDAwO1xyXG4kYXMtcHJpbWFyeTogIzAwYjBmZjtcclxuJGFzLWRhbmdlcjogI2Q1MDAwMDtcclxuJGFzLXN1Y2Nlc3M6ICNhZWVhMDA7XHJcbiRhcy1pbmZvOiAjYjNlNWZjO1xyXG4kYXMtd2FybmluZzogI2ZmYWIwMDtcclxuJGFzLWxpZ2h0OiAjZTBlMGUwO1xyXG4kYXMtZGFyazogIzc4OTA5YztcclxuJGFzLXdpbm5lcjogIzBkNDdhMTtcclxuJGFzLWhhcHB5OiAjZDgxYjYwO1xyXG4uYXMtYmFkZ2Uge1xyXG4gIHBhZGRpbmc6IDVweDtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG1hcmdpbjogNXB4O1xyXG4gIHBhZGRpbmc6IDRweDtcclxuICBmbG9hdDogcmlnaHQ7XHJcbiAgZm9udC1zaXplOiAxMnB4O1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgYm9yZGVyOiAxcHggc29saWQgd2hpdGU7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDFzIGVhc2UtaW4tb3V0O1xyXG59XHJcblxyXG4uYXMtYmctYmFzZSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWJhc2U7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctYmFzZSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWJhc2U7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctcHJpbWFyeSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXByaW1hcnk7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctZGFuZ2VyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtZGFuZ2VyO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLXN1Y2Nlc3Mge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1zdWNjZXNzO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLWluZm8ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1pbmZvO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLXdhcm5pbmcge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy13YXJuaW5nO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLWxpZ2h0IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtbGlnaHQ7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctZGFyayB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWRhcms7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctd2lubmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtd2lubmVyO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbn1cclxuLmFzLWJnLWhhcHB5IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtaGFwcHk7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtY2lyY2xlLXNtIHtcclxuICBib3JkZXItcmFkaXVzOiAxNXB4O1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG4iXX0= */"
+module.exports = ".as-site {\n  margin: 30px 0px; }\n\n.as-json {\n  word-wrap: break-word;\n  word-break: break-all; }\n\n.as-badge {\n  padding: 5px;\n  cursor: pointer;\n  border-radius: 3px;\n  width: 100%;\n  margin: 5px;\n  padding: 4px;\n  float: right;\n  font-size: 12px;\n  display: inline-block;\n  border-radius: 5px;\n  border: 1px solid white;\n  text-align: center;\n  text-decoration: none;\n  -webkit-transition: background-color 1s ease-in-out;\n  transition: background-color 1s ease-in-out; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-base {\n  background-color: #000000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-primary {\n  background-color: #00b0ff;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-danger {\n  background-color: #d50000;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-success {\n  background-color: #aeea00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-info {\n  background-color: #b3e5fc;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-warning {\n  background-color: #ffab00;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-light {\n  background-color: #e0e0e0;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-dark {\n  background-color: #78909c;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-winner {\n  background-color: #0d47a1;\n  color: white;\n  border-radius: 4px; }\n\n.as-bg-happy {\n  background-color: #d81b60;\n  color: white;\n  border-radius: 4px; }\n\n.as-circle-sm {\n  border-radius: 15px;\n  padding: 5px; }\n\ntable {\n  word-wrap: break-word;\n  word-break: normal; }\n\n.table-mob {\n  width: 100%;\n  overflow: auto; }\n\n.card {\n  overflow: auto; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2l0L2luZm8vQzpcXFVzZXJzXFxtYW5vbXV0aFxcRGVza3RvcFxcV29ya0Zyb21IZXJlXFxTdGFydEhlcmVcXGFwcGxpY2F0aW9uLXdvcmtIZXJlXFxhc3BpLWNzcy9zcmNcXGFwcFxcZ2l0XFxpbmZvXFxpbmZvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWdCLEVBQ2pCOztBQUNEO0VBQ0Usc0JBQXFCO0VBQ3JCLHNCQUFxQixFQUN0Qjs7QUFXRDtFQUNFLGFBQVk7RUFDWixnQkFBZTtFQUNmLG1CQUFrQjtFQUNsQixZQUFXO0VBQ1gsWUFBVztFQUNYLGFBQVk7RUFDWixhQUFZO0VBQ1osZ0JBQWU7RUFDZixzQkFBcUI7RUFDckIsbUJBQWtCO0VBQ2xCLHdCQUF1QjtFQUN2QixtQkFBa0I7RUFDbEIsc0JBQXFCO0VBQ3JCLG9EQUEyQztFQUEzQyw0Q0FBMkMsRUFDNUM7O0FBRUQ7RUFDRSwwQkE1QmU7RUE2QmYsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQWpDZTtFQWtDZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBckNrQjtFQXNDbEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXpDaUI7RUEwQ2pCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkE3Q2tCO0VBOENsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakRlO0VBa0RmLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSwwQkFyRGtCO0VBc0RsQixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBekRnQjtFQTBEaEIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQTdEZTtFQThEZixhQUFZO0VBQ1osbUJBQWtCLEVBQ25COztBQUNEO0VBQ0UsMEJBakVpQjtFQWtFakIsYUFBWTtFQUNaLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLDBCQXJFZ0I7RUFzRWhCLGFBQVk7RUFDWixtQkFBa0IsRUFDbkI7O0FBQ0Q7RUFDRSxvQkFBbUI7RUFDbkIsYUFBWSxFQUNiOztBQUVEO0VBQ0Usc0JBQXFCO0VBQ3JCLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLFlBQVc7RUFDWCxlQUFjLEVBQ2Y7O0FBQ0Q7RUFDRSxlQUFjLEVBQ2YiLCJmaWxlIjoic3JjL2FwcC9naXQvaW5mby9pbmZvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFzLXNpdGUge1xyXG4gIG1hcmdpbjogMzBweCAwcHg7XHJcbn1cclxuLmFzLWpzb24ge1xyXG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDtcclxuICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XHJcbn1cclxuJGFzLWJhc2U6ICMwMDAwMDA7XHJcbiRhcy1wcmltYXJ5OiAjMDBiMGZmO1xyXG4kYXMtZGFuZ2VyOiAjZDUwMDAwO1xyXG4kYXMtc3VjY2VzczogI2FlZWEwMDtcclxuJGFzLWluZm86ICNiM2U1ZmM7XHJcbiRhcy13YXJuaW5nOiAjZmZhYjAwO1xyXG4kYXMtbGlnaHQ6ICNlMGUwZTA7XHJcbiRhcy1kYXJrOiAjNzg5MDljO1xyXG4kYXMtd2lubmVyOiAjMGQ0N2ExO1xyXG4kYXMtaGFwcHk6ICNkODFiNjA7XHJcbi5hcy1iYWRnZSB7XHJcbiAgcGFkZGluZzogNXB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBib3JkZXItcmFkaXVzOiAzcHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgbWFyZ2luOiA1cHg7XHJcbiAgcGFkZGluZzogNHB4O1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBmb250LXNpemU6IDEycHg7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMXMgZWFzZS1pbi1vdXQ7XHJcbn1cclxuXHJcbi5hcy1iZy1iYXNlIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtYmFzZTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1iYXNlIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtYmFzZTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1wcmltYXJ5IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtcHJpbWFyeTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1kYW5nZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1kYW5nZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctc3VjY2VzcyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXN1Y2Nlc3M7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctaW5mbyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLWluZm87XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctd2FybmluZyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXdhcm5pbmc7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctbGlnaHQge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1saWdodDtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy1kYXJrIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtZGFyaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1iZy13aW5uZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy13aW5uZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxufVxyXG4uYXMtYmctaGFwcHkge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRhcy1oYXBweTtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG59XHJcbi5hcy1jaXJjbGUtc20ge1xyXG4gIGJvcmRlci1yYWRpdXM6IDE1cHg7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG50YWJsZSB7XHJcbiAgd29yZC13cmFwOiBicmVhay13b3JkO1xyXG4gIHdvcmQtYnJlYWs6IG5vcm1hbDtcclxufVxyXG4udGFibGUtbW9iIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBvdmVyZmxvdzogYXV0bztcclxufVxyXG4uY2FyZCB7XHJcbiAgb3ZlcmZsb3c6IGF1dG87XHJcbn0iXX0= */"
 
 /***/ }),
 
@@ -1356,6 +1376,1591 @@ var UpdateComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
     ], UpdateComponent);
     return UpdateComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/sanitaizer.pipe.ts":
+/*!************************************!*\
+  !*** ./src/app/sanitaizer.pipe.ts ***!
+  \************************************/
+/*! exports provided: SanitaizerPipe */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SanitaizerPipe", function() { return SanitaizerPipe; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+
+
+
+var SanitaizerPipe = /** @class */ (function () {
+    function SanitaizerPipe(sanitizer) {
+        this.sanitizer = sanitizer;
+    }
+    SanitaizerPipe.prototype.transform = function (value) {
+        return this.sanitizer.bypassSecurityTrustHtml(value);
+    };
+    SanitaizerPipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
+            name: "sanitaizer"
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]])
+    ], SanitaizerPipe);
+    return SanitaizerPipe;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/speech.ts":
+/*!************************************!*\
+  !*** ./src/app/services/speech.ts ***!
+  \************************************/
+/*! exports provided: SpeechRecognitionService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpeechRecognitionService", function() { return SpeechRecognitionService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+
+
+
+
+var SpeechRecognitionService = /** @class */ (function () {
+    function SpeechRecognitionService(zone) {
+        this.zone = zone;
+    }
+    SpeechRecognitionService.prototype.record = function () {
+        var _this = this;
+        return rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"].create(function (observer) {
+            var webkitSpeechRecognition = window.webkitSpeechRecognition;
+            _this.speechRecognition = new webkitSpeechRecognition();
+            _this.speechRecognition.continuous = true;
+            _this.speechRecognition.lang = "en-us";
+            _this.speechRecognition.maxAlternatives = 1;
+            _this.speechRecognition.onresult = function (speech) {
+                var term = "";
+                if (speech.results) {
+                    var result = speech.results[speech.resultIndex];
+                    var transcript = result[0].transcript;
+                    if (result.isFinal) {
+                        if (result[0].confidence < 0.3) {
+                            console.log("Unrecognized result - Please try again");
+                        }
+                        else {
+                            term = lodash__WEBPACK_IMPORTED_MODULE_2__["trim"](transcript);
+                            console.log("Did you said? -> " +
+                                term +
+                                " , If not then say something else...");
+                        }
+                    }
+                }
+                _this.zone.run(function () {
+                    observer.next(term);
+                });
+            };
+            _this.speechRecognition.onerror = function (error) {
+                observer.error(error);
+            };
+            _this.speechRecognition.onend = function () {
+                observer.complete();
+            };
+            _this.speechRecognition.start();
+            console.log("Say something - We are listening !!!");
+        });
+    };
+    SpeechRecognitionService.prototype.DestroySpeechObject = function () {
+        if (this.speechRecognition) {
+            this.speechRecognition.stop();
+        }
+    };
+    SpeechRecognitionService.prototype.compareTwoStrings = function (first1, second1) {
+        var first = first1.replace(/\s+/g, "");
+        var second = second1.replace(/\s+/g, "");
+        if (!first.length && !second.length) {
+            return 1;
+        } // if both are empty strings
+        if (!first.length || !second.length) {
+            return 0;
+        } // if only one is empty string
+        if (first === second) {
+            return 1;
+        } // identical
+        if (first.length === 1 && second.length === 1) {
+            return 0;
+        } // both are 1-letter strings
+        if (first.length < 2 || second.length < 2) {
+            return 0;
+        } // if either is a 1-letter string
+        var firstBigrams = new Map();
+        for (var i = 0; i < first.length - 1; i++) {
+            var bigram = first.substring(i, i + 2);
+            var count = firstBigrams.has(bigram) ? firstBigrams.get(bigram) + 1 : 1;
+            firstBigrams.set(bigram, count);
+        }
+        var intersectionSize = 0;
+        for (var i = 0; i < second.length - 1; i++) {
+            var bigram = second.substring(i, i + 2);
+            var count = firstBigrams.has(bigram) ? firstBigrams.get(bigram) : 0;
+            if (count > 0) {
+                firstBigrams.set(bigram, count - 1);
+                intersectionSize++;
+            }
+        }
+        return 2.0 * intersectionSize / (first.length + second.length - 2);
+    };
+    SpeechRecognitionService.prototype.findBestMatch = function (mainString, targetStrings) {
+        var ratings = [];
+        var bestMatchIndex = 0;
+        for (var i = 0; i < targetStrings.length; i++) {
+            var currentTargetString = targetStrings[i];
+            var currentRating = this.compareTwoStrings(mainString, currentTargetString);
+            ratings.push({ target: currentTargetString, rating: currentRating });
+            if (currentRating > ratings[bestMatchIndex].rating) {
+                bestMatchIndex = i;
+            }
+        }
+        var bestMatch = ratings[bestMatchIndex];
+        return { ratings: ratings, bestMatch: bestMatch, bestMatchIndex: bestMatchIndex };
+    };
+    SpeechRecognitionService.prototype.areArgsValid = function (mainString, targetStrings) {
+        if (typeof mainString !== "string") {
+            return false;
+        }
+        if (!Array.isArray(targetStrings)) {
+            return false;
+        }
+        if (!targetStrings.length) {
+            return false;
+        }
+        if (targetStrings.find(function (s) { return typeof s !== "string"; })) {
+            return false;
+        }
+        return true;
+    };
+    SpeechRecognitionService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]])
+    ], SpeechRecognitionService);
+    return SpeechRecognitionService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/theme/editor/FONT.ts":
+/*!**************************************!*\
+  !*** ./src/app/theme/editor/FONT.ts ***!
+  \**************************************/
+/*! exports provided: FONT */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FONT", function() { return FONT; });
+var FONT = [
+    "fas fa-address-book",
+    "fas fa-address-card",
+    "fas fa-adjust",
+    "fas fa-align-center",
+    "fas fa-align-justify",
+    "fas fa-align-left",
+    "fas fa-align-right",
+    "fas fa-allergies",
+    "fas fa-ambulance",
+    "fas fa-american-sign-language-interpreting",
+    "fas fa-anchor",
+    "fas fa-angle-double-down",
+    "fas fa-angle-double-left",
+    "fas fa-angle-double-right",
+    "fas fa-angle-double-up",
+    "fas fa-angle-down",
+    "fas fa-angle-left",
+    "fas fa-angle-right",
+    "fas fa-angle-up",
+    "fas fa-archive",
+    "fas fa-arrow-alt-circle-down",
+    "fas fa-arrow-alt-circle-left",
+    "fas fa-arrow-alt-circle-right",
+    "fas fa-arrow-alt-circle-up",
+    "fas fa-arrow-circle-down",
+    "fas fa-arrow-circle-left",
+    "fas fa-arrow-circle-right",
+    "fas fa-arrow-circle-up",
+    "fas fa-arrow-down",
+    "fas fa-arrow-left",
+    "fas fa-arrow-right",
+    "fas fa-arrow-up",
+    "fas fa-arrows-alt",
+    "fas fa-arrows-alt-h",
+    "fas fa-arrows-alt-v",
+    "fas fa-assistive-listening-systems",
+    "fas fa-asterisk",
+    "fas fa-at",
+    "fas fa-audio-description",
+    "fas fa-backward",
+    "fas fa-balance-scale",
+    "fas fa-ban",
+    "fas fa-band-aid",
+    "fas fa-barcode",
+    "fas fa-bars",
+    "fas fa-baseball-ball",
+    "fas fa-basketball-ball",
+    "fas fa-bath",
+    "fas fa-battery-empty",
+    "fas fa-battery-full",
+    "fas fa-battery-half",
+    "fas fa-battery-quarter",
+    "fas fa-battery-three-quarters",
+    "fas fa-bed",
+    "fas fa-beer",
+    "fas fa-bell",
+    "fas fa-bell-slash",
+    "fas fa-bicycle",
+    "fas fa-binoculars",
+    "fas fa-birthday-cake",
+    "fas fa-blind",
+    "fas fa-bold",
+    "fas fa-bolt",
+    "fas fa-bomb",
+    "fas fa-book",
+    "fas fa-bookmark",
+    "fas fa-bowling-ball",
+    "fas fa-box",
+    "fas fa-box-open",
+    "fas fa-boxes",
+    "fas fa-braille",
+    "fas fa-briefcase",
+    "fas fa-briefcase-medical",
+    "fas fa-bug",
+    "fas fa-building",
+    "fas fa-bullhorn",
+    "fas fa-bullseye",
+    "fas fa-burn",
+    "fas fa-bus",
+    "fas fa-calculator",
+    "fas fa-calendar",
+    "fas fa-calendar-alt",
+    "fas fa-calendar-check",
+    "fas fa-calendar-minus",
+    "fas fa-calendar-plus",
+    "fas fa-calendar-times",
+    "fas fa-camera",
+    "fas fa-camera-retro",
+    "fas fa-capsules",
+    "fas fa-car",
+    "fas fa-caret-down",
+    "fas fa-caret-left",
+    "fas fa-caret-right",
+    "fas fa-caret-square-down",
+    "fas fa-caret-square-left",
+    "fas fa-caret-square-right",
+    "fas fa-caret-square-up",
+    "fas fa-caret-up",
+    "fas fa-cart-arrow-down",
+    "fas fa-cart-plus",
+    "fas fa-certificate",
+    "fas fa-chart-area",
+    "fas fa-chart-bar",
+    "fas fa-chart-line",
+    "fas fa-chart-pie",
+    "fas fa-check",
+    "fas fa-check-circle",
+    "fas fa-check-square",
+    "fas fa-chess",
+    "fas fa-chess-bishop",
+    "fas fa-chess-board",
+    "fas fa-chess-king",
+    "fas fa-chess-knight",
+    "fas fa-chess-pawn",
+    "fas fa-chess-queen",
+    "fas fa-chess-rook",
+    "fas fa-chevron-circle-down",
+    "fas fa-chevron-circle-left",
+    "fas fa-chevron-circle-right",
+    "fas fa-chevron-circle-up",
+    "fas fa-chevron-down",
+    "fas fa-chevron-left",
+    "fas fa-chevron-right",
+    "fas fa-chevron-up",
+    "fas fa-child",
+    "fas fa-circle",
+    "fas fa-circle-notch",
+    "fas fa-clipboard",
+    "fas fa-clipboard-check",
+    "fas fa-clipboard-list",
+    "fas fa-clock",
+    "fas fa-clone",
+    "fas fa-closed-captioning",
+    "fas fa-cloud",
+    "fas fa-cloud-download-alt",
+    "fas fa-cloud-upload-alt",
+    "fas fa-code",
+    "fas fa-code-branch",
+    "fas fa-coffee",
+    "fas fa-cog",
+    "fas fa-cogs",
+    "fas fa-columns",
+    "fas fa-comment",
+    "fas fa-comment-alt",
+    "fas fa-comment-dots",
+    "fas fa-comment-slash",
+    "fas fa-comments",
+    "fas fa-compass",
+    "fas fa-compress",
+    "fas fa-copy",
+    "fas fa-copyright",
+    "fas fa-couch",
+    "fas fa-credit-card",
+    "fas fa-crop",
+    "fas fa-crosshairs",
+    "fas fa-cube",
+    "fas fa-cubes",
+    "fas fa-cut",
+    "fas fa-database",
+    "fas fa-deaf",
+    "fas fa-desktop",
+    "fas fa-diagnoses",
+    "fas fa-dna",
+    "fas fa-dollar-sign",
+    "fas fa-dolly",
+    "fas fa-dolly-flatbed",
+    "fas fa-donate",
+    "fas fa-dot-circle",
+    "fas fa-dove",
+    "fas fa-download",
+    "fas fa-edit",
+    "fas fa-eject",
+    "fas fa-ellipsis-h",
+    "fas fa-ellipsis-v",
+    "fas fa-envelope",
+    "fas fa-envelope-open",
+    "fas fa-envelope-square",
+    "fas fa-eraser",
+    "fas fa-euro-sign",
+    "fas fa-exchange-alt",
+    "fas fa-exclamation",
+    "fas fa-exclamation-circle",
+    "fas fa-exclamation-triangle",
+    "fas fa-expand",
+    "fas fa-expand-arrows-alt",
+    "fas fa-external-link-alt",
+    "fas fa-external-link-square-alt",
+    "fas fa-eye",
+    "fas fa-eye-dropper",
+    "fas fa-eye-slash",
+    "fas fa-fast-backward",
+    "fas fa-fast-forward",
+    "fas fa-fax",
+    "fas fa-female",
+    "fas fa-fighter-jet",
+    "fas fa-file",
+    "fas fa-file-alt",
+    "fas fa-file-archive",
+    "fas fa-file-audio",
+    "fas fa-file-code",
+    "fas fa-file-excel",
+    "fas fa-file-image",
+    "fas fa-file-medical",
+    "fas fa-file-medical-alt",
+    "fas fa-file-pdf",
+    "fas fa-file-powerpoint",
+    "fas fa-file-video",
+    "fas fa-file-word",
+    "fas fa-film",
+    "fas fa-filter",
+    "fas fa-fire",
+    "fas fa-fire-extinguisher",
+    "fas fa-first-aid",
+    "fas fa-flag",
+    "fas fa-flag-checkered",
+    "fas fa-flask",
+    "fas fa-folder",
+    "fas fa-folder-open",
+    "fas fa-font",
+    "fas fa-football-ball",
+    "fas fa-forward",
+    "fas fa-frown",
+    "fas fa-futbol",
+    "fas fa-gamepad",
+    "fas fa-gavel",
+    "fas fa-gem",
+    "fas fa-genderless",
+    "fas fa-gift",
+    "fas fa-glass-martini",
+    "fas fa-globe",
+    "fas fa-golf-ball",
+    "fas fa-graduation-cap",
+    "fas fa-h-square",
+    "fas fa-hand-holding",
+    "fas fa-hand-holding-heart",
+    "fas fa-hand-holding-usd",
+    "fas fa-hand-lizard",
+    "fas fa-hand-paper",
+    "fas fa-hand-peace",
+    "fas fa-hand-point-down",
+    "fas fa-hand-point-left",
+    "fas fa-hand-point-right",
+    "fas fa-hand-point-up",
+    "fas fa-hand-pointer",
+    "fas fa-hand-rock",
+    "fas fa-hand-scissors",
+    "fas fa-hand-spock",
+    "fas fa-hands",
+    "fas fa-hands-helping",
+    "fas fa-handshake",
+    "fas fa-hashtag",
+    "fas fa-hdd",
+    "fas fa-heading",
+    "fas fa-headphones",
+    "fas fa-heart",
+    "fas fa-heartbeat",
+    "fas fa-history",
+    "fas fa-hockey-puck",
+    "fas fa-home",
+    "fas fa-hospital",
+    "fas fa-hospital-alt",
+    "fas fa-hospital-symbol",
+    "fas fa-hourglass",
+    "fas fa-hourglass-end",
+    "fas fa-hourglass-half",
+    "fas fa-hourglass-start",
+    "fas fa-i-cursor",
+    "fas fa-id-badge",
+    "fas fa-id-card",
+    "fas fa-id-card-alt",
+    "fas fa-image",
+    "fas fa-images",
+    "fas fa-inbox",
+    "fas fa-indent",
+    "fas fa-industry",
+    "fas fa-info",
+    "fas fa-info-circle",
+    "fas fa-italic",
+    "fas fa-key",
+    "fas fa-keyboard",
+    "fas fa-language",
+    "fas fa-laptop",
+    "fas fa-leaf",
+    "fas fa-lemon",
+    "fas fa-level-down-alt",
+    "fas fa-level-up-alt",
+    "fas fa-life-ring",
+    "fas fa-lightbulb",
+    "fas fa-link",
+    "fas fa-lira-sign",
+    "fas fa-list",
+    "fas fa-list-alt",
+    "fas fa-list-ol",
+    "fas fa-list-ul",
+    "fas fa-location-arrow",
+    "fas fa-lock",
+    "fas fa-lock-open",
+    "fas fa-long-arrow-alt-down",
+    "fas fa-long-arrow-alt-left",
+    "fas fa-long-arrow-alt-right",
+    "fas fa-long-arrow-alt-up",
+    "fas fa-low-vision",
+    "fas fa-magic",
+    "fas fa-magnet",
+    "fas fa-male",
+    "fas fa-map",
+    "fas fa-map-marker",
+    "fas fa-map-marker-alt",
+    "fas fa-map-pin",
+    "fas fa-map-signs",
+    "fas fa-mars",
+    "fas fa-mars-double",
+    "fas fa-mars-stroke",
+    "fas fa-mars-stroke-h",
+    "fas fa-mars-stroke-v",
+    "fas fa-medkit",
+    "fas fa-meh",
+    "fas fa-mercury",
+    "fas fa-microchip",
+    "fas fa-microphone",
+    "fas fa-microphone-slash",
+    "fas fa-minus",
+    "fas fa-minus-circle",
+    "fas fa-minus-square",
+    "fas fa-mobile",
+    "fas fa-mobile-alt",
+    "fas fa-money-bill-alt",
+    "fas fa-moon",
+    "fas fa-motorcycle",
+    "fas fa-mouse-pointer",
+    "fas fa-music",
+    "fas fa-neuter",
+    "fas fa-newspaper",
+    "fas fa-notes-medical",
+    "fas fa-object-group",
+    "fas fa-object-ungroup",
+    "fas fa-outdent",
+    "fas fa-paint-brush",
+    "fas fa-pallet",
+    "fas fa-paper-plane",
+    "fas fa-paperclip",
+    "fas fa-parachute-box",
+    "fas fa-paragraph",
+    "fas fa-paste",
+    "fas fa-pause",
+    "fas fa-pause-circle",
+    "fas fa-paw",
+    "fas fa-pen-square",
+    "fas fa-pencil-alt",
+    "fas fa-people-carry",
+    "fas fa-percent",
+    "fas fa-phone",
+    "fas fa-phone-slash",
+    "fas fa-phone-square",
+    "fas fa-phone-volume",
+    "fas fa-piggy-bank",
+    "fas fa-pills",
+    "fas fa-plane",
+    "fas fa-play",
+    "fas fa-play-circle",
+    "fas fa-plug",
+    "fas fa-plus",
+    "fas fa-plus-circle",
+    "fas fa-plus-square",
+    "fas fa-podcast",
+    "fas fa-poo",
+    "fas fa-pound-sign",
+    "fas fa-power-off",
+    "fas fa-prescription-bottle",
+    "fas fa-prescription-bottle-alt",
+    "fas fa-print",
+    "fas fa-procedures",
+    "fas fa-puzzle-piece",
+    "fas fa-qrcode",
+    "fas fa-question",
+    "fas fa-question-circle",
+    "fas fa-quidditch",
+    "fas fa-quote-left",
+    "fas fa-quote-right",
+    "fas fa-random",
+    "fas fa-recycle",
+    "fas fa-redo",
+    "fas fa-redo-alt",
+    "fas fa-registered",
+    "fas fa-reply",
+    "fas fa-reply-all",
+    "fas fa-retweet",
+    "fas fa-ribbon",
+    "fas fa-road",
+    "fas fa-rocket",
+    "fas fa-rss",
+    "fas fa-rss-square",
+    "fas fa-ruble-sign",
+    "fas fa-rupee-sign",
+    "fas fa-save",
+    "fas fa-search",
+    "fas fa-search-minus",
+    "fas fa-search-plus",
+    "fas fa-seedling",
+    "fas fa-server",
+    "fas fa-share",
+    "fas fa-share-alt",
+    "fas fa-share-alt-square",
+    "fas fa-share-square",
+    "fas fa-shekel-sign",
+    "fas fa-shield-alt",
+    "fas fa-ship",
+    "fas fa-shipping-fast",
+    "fas fa-shopping-bag",
+    "fas fa-shopping-basket",
+    "fas fa-shopping-cart",
+    "fas fa-shower",
+    "fas fa-sign",
+    "fas fa-sign-in-alt",
+    "fas fa-sign-language",
+    "fas fa-sign-out-alt",
+    "fas fa-signal",
+    "fas fa-sitemap",
+    "fas fa-sliders-h",
+    "fas fa-smile",
+    "fas fa-smoking",
+    "fas fa-snowflake",
+    "fas fa-sort",
+    "fas fa-sort-alpha-down",
+    "fas fa-sort-alpha-up",
+    "fas fa-sort-amount-down",
+    "fas fa-sort-amount-up",
+    "fas fa-sort-down",
+    "fas fa-sort-numeric-down",
+    "fas fa-sort-numeric-up",
+    "fas fa-sort-up",
+    "fas fa-space-shuttle",
+    "fas fa-spinner",
+    "fas fa-square",
+    "fas fa-square-full",
+    "fas fa-star",
+    "fas fa-star-half",
+    "fas fa-step-backward",
+    "fas fa-step-forward",
+    "fas fa-stethoscope",
+    "fas fa-sticky-note",
+    "fas fa-stop",
+    "fas fa-stop-circle",
+    "fas fa-stopwatch",
+    "fas fa-street-view",
+    "fas fa-strikethrough",
+    "fas fa-subscript",
+    "fas fa-subway",
+    "fas fa-suitcase",
+    "fas fa-sun",
+    "fas fa-superscript",
+    "fas fa-sync",
+    "fas fa-sync-alt",
+    "fas fa-syringe",
+    "fas fa-table",
+    "fas fa-table-tennis",
+    "fas fa-tablet",
+    "fas fa-tablet-alt",
+    "fas fa-tablets",
+    "fas fa-tachometer-alt",
+    "fas fa-tag",
+    "fas fa-tags",
+    "fas fa-tape",
+    "fas fa-tasks",
+    "fas fa-taxi",
+    "fas fa-terminal",
+    "fas fa-text-height",
+    "fas fa-text-width",
+    "fas fa-th",
+    "fas fa-th-large",
+    "fas fa-th-list",
+    "fas fa-thermometer",
+    "fas fa-thermometer-empty",
+    "fas fa-thermometer-full",
+    "fas fa-thermometer-half",
+    "fas fa-thermometer-quarter",
+    "fas fa-thermometer-three-quarters",
+    "fas fa-thumbs-down",
+    "fas fa-thumbs-up",
+    "fas fa-thumbtack",
+    "fas fa-ticket-alt",
+    "fas fa-times",
+    "fas fa-times-circle",
+    "fas fa-tint",
+    "fas fa-toggle-off",
+    "fas fa-toggle-on",
+    "fas fa-trademark",
+    "fas fa-train",
+    "fas fa-transgender",
+    "fas fa-transgender-alt",
+    "fas fa-trash",
+    "fas fa-trash-alt",
+    "fas fa-tree",
+    "fas fa-trophy",
+    "fas fa-truck",
+    "fas fa-truck-loading",
+    "fas fa-truck-moving",
+    "fas fa-tty",
+    "fas fa-tv",
+    "fas fa-umbrella",
+    "fas fa-underline",
+    "fas fa-undo",
+    "fas fa-undo-alt",
+    "fas fa-universal-access",
+    "fas fa-university",
+    "fas fa-unlink",
+    "fas fa-unlock",
+    "fas fa-unlock-alt",
+    "fas fa-upload",
+    "fas fa-user",
+    "fas fa-user-circle",
+    "fas fa-user-md",
+    "fas fa-user-plus",
+    "fas fa-user-secret",
+    "fas fa-user-times",
+    "fas fa-users",
+    "fas fa-utensil-spoon",
+    "fas fa-utensils",
+    "fas fa-venus",
+    "fas fa-venus-double",
+    "fas fa-venus-mars",
+    "fas fa-vial",
+    "fas fa-vials",
+    "fas fa-video",
+    "fas fa-video-slash",
+    "fas fa-volleyball-ball",
+    "fas fa-volume-down",
+    "fas fa-volume-off",
+    "fas fa-volume-up",
+    "fas fa-warehouse",
+    "fas fa-weight",
+    "fas fa-wheelchair",
+    "fas fa-wifi",
+    "fas fa-window-close",
+    "fas fa-window-maximize",
+    "fas fa-window-minimize",
+    "fas fa-window-restore",
+    "fas fa-wine-glass",
+    "fas fa-won-sign",
+    "fas fa-wrench",
+    "fas fa-x-ray",
+    "fas fa-yen-sign",
+    "far fa-address-book",
+    "far fa-address-card",
+    "far fa-arrow-alt-circle-down",
+    "far fa-arrow-alt-circle-left",
+    "far fa-arrow-alt-circle-right",
+    "far fa-arrow-alt-circle-up",
+    "far fa-bell",
+    "far fa-bell-slash",
+    "far fa-bookmark",
+    "far fa-building",
+    "far fa-calendar",
+    "far fa-calendar-alt",
+    "far fa-calendar-check",
+    "far fa-calendar-minus",
+    "far fa-calendar-plus",
+    "far fa-calendar-times",
+    "far fa-caret-square-down",
+    "far fa-caret-square-left",
+    "far fa-caret-square-right",
+    "far fa-caret-square-up",
+    "far fa-chart-bar",
+    "far fa-check-circle",
+    "far fa-check-square",
+    "far fa-circle",
+    "far fa-clipboard",
+    "far fa-clock",
+    "far fa-clone",
+    "far fa-closed-captioning",
+    "far fa-comment",
+    "far fa-comment-alt",
+    "far fa-comments",
+    "far fa-compass",
+    "far fa-copy",
+    "far fa-copyright",
+    "far fa-credit-card",
+    "far fa-dot-circle",
+    "far fa-edit",
+    "far fa-envelope",
+    "far fa-envelope-open",
+    "far fa-eye-slash",
+    "far fa-file",
+    "far fa-file-alt",
+    "far fa-file-archive",
+    "far fa-file-audio",
+    "far fa-file-code",
+    "far fa-file-excel",
+    "far fa-file-image",
+    "far fa-file-pdf",
+    "far fa-file-powerpoint",
+    "far fa-file-video",
+    "far fa-file-word",
+    "far fa-flag",
+    "far fa-folder",
+    "far fa-folder-open",
+    "far fa-frown",
+    "far fa-futbol",
+    "far fa-gem",
+    "far fa-hand-lizard",
+    "far fa-hand-paper",
+    "far fa-hand-peace",
+    "far fa-hand-point-down",
+    "far fa-hand-point-left",
+    "far fa-hand-point-right",
+    "far fa-hand-point-up",
+    "far fa-hand-pointer",
+    "far fa-hand-rock",
+    "far fa-hand-scissors",
+    "far fa-hand-spock",
+    "far fa-handshake",
+    "far fa-hdd",
+    "far fa-heart",
+    "far fa-hospital",
+    "far fa-hourglass",
+    "far fa-id-badge",
+    "far fa-id-card",
+    "far fa-image",
+    "far fa-images",
+    "far fa-keyboard",
+    "far fa-lemon",
+    "far fa-life-ring",
+    "far fa-lightbulb",
+    "far fa-list-alt",
+    "far fa-map",
+    "far fa-meh",
+    "far fa-minus-square",
+    "far fa-money-bill-alt",
+    "far fa-moon",
+    "far fa-newspaper",
+    "far fa-object-group",
+    "far fa-object-ungroup",
+    "far fa-paper-plane",
+    "far fa-pause-circle",
+    "far fa-play-circle",
+    "far fa-plus-square",
+    "far fa-question-circle",
+    "far fa-registered",
+    "far fa-save",
+    "far fa-share-square",
+    "far fa-smile",
+    "far fa-snowflake",
+    "far fa-square",
+    "far fa-star",
+    "far fa-star-half",
+    "far fa-sticky-note",
+    "far fa-stop-circle",
+    "far fa-sun",
+    "far fa-thumbs-down",
+    "far fa-thumbs-up",
+    "far fa-times-circle",
+    "far fa-trash-alt",
+    "far fa-user",
+    "far fa-user-circle",
+    "far fa-window-close",
+    "far fa-window-maximize",
+    "far fa-window-minimize",
+    "far fa-window-restore",
+    "fab fa-500px",
+    "fab fa-accessible-icon",
+    "fab fa-accusoft",
+    "fab fa-adn",
+    "fab fa-adversal",
+    "fab fa-affiliatetheme",
+    "fab fa-algolia",
+    "fab fa-amazon",
+    "fab fa-amazon-pay",
+    "fab fa-amilia",
+    "fab fa-android",
+    "fab fa-angellist",
+    "fab fa-angrycreative",
+    "fab fa-angular",
+    "fab fa-app-store",
+    "fab fa-app-store-ios",
+    "fab fa-apper",
+    "fab fa-apple",
+    "fab fa-apple-pay",
+    "fab fa-asymmetrik",
+    "fab fa-audible",
+    "fab fa-autoprefixer",
+    "fab fa-avianex",
+    "fab fa-aviato",
+    "fab fa-aws",
+    "fab fa-bandcamp",
+    "fab fa-behance",
+    "fab fa-behance-square",
+    "fab fa-bimobject",
+    "fab fa-bitbucket",
+    "fab fa-bitcoin",
+    "fab fa-bity",
+    "fab fa-black-tie",
+    "fab fa-blackberry",
+    "fab fa-blogger",
+    "fab fa-blogger-b",
+    "fab fa-bluetooth",
+    "fab fa-bluetooth-b",
+    "fab fa-btc",
+    "fab fa-buromobelexperte",
+    "fab fa-buysellads",
+    "fab fa-cc-amazon-pay",
+    "fab fa-cc-amex",
+    "fab fa-cc-apple-pay",
+    "fab fa-cc-diners-club",
+    "fab fa-cc-discover",
+    "fab fa-cc-jcb",
+    "fab fa-cc-mastercard",
+    "fab fa-cc-paypal",
+    "fab fa-cc-stripe",
+    "fab fa-cc-visa",
+    "fab fa-centercode",
+    "fab fa-chrome",
+    "fab fa-cloudscale",
+    "fab fa-cloudsmith",
+    "fab fa-cloudversify",
+    "fab fa-codepen",
+    "fab fa-codiepie",
+    "fab fa-connectdevelop",
+    "fab fa-contao",
+    "fab fa-cpanel",
+    "fab fa-creative-commons",
+    "fab fa-css3",
+    "fab fa-css3-alt",
+    "fab fa-cuttlefish",
+    "fab fa-d-and-d",
+    "fab fa-dashcube",
+    "fab fa-delicious",
+    "fab fa-deploydog",
+    "fab fa-deskpro",
+    "fab fa-deviantart",
+    "fab fa-digg",
+    "fab fa-digital-ocean",
+    "fab fa-discord",
+    "fab fa-discourse",
+    "fab fa-dochub",
+    "fab fa-docker",
+    "fab fa-draft2digital",
+    "fab fa-dribbble",
+    "fab fa-dribbble-square",
+    "fab fa-dropbox",
+    "fab fa-drupal",
+    "fab fa-dyalog",
+    "fab fa-earlybirds",
+    "fab fa-edge",
+    "fab fa-elementor",
+    "fab fa-ember",
+    "fab fa-empire",
+    "fab fa-envira",
+    "fab fa-erlang",
+    "fab fa-ethereum",
+    "fab fa-etsy",
+    "fab fa-expeditedssl",
+    "fab fa-facebook",
+    "fab fa-facebook-f",
+    "fab fa-facebook-messenger",
+    "fab fa-facebook-square",
+    "fab fa-firefox",
+    "fab fa-first-order",
+    "fab fa-firstdraft",
+    "fab fa-flickr",
+    "fab fa-flipboard",
+    "fab fa-fly",
+    "fab fa-font-awesome",
+    "fab fa-font-awesome-alt",
+    "fab fa-font-awesome-flag",
+    "fab fa-fonticons",
+    "fab fa-fonticons-fi",
+    "fab fa-fort-awesome",
+    "fab fa-fort-awesome-alt",
+    "fab fa-forumbee",
+    "fab fa-foursquare",
+    "fab fa-free-code-camp",
+    "fab fa-freebsd",
+    "fab fa-get-pocket",
+    "fab fa-gg",
+    "fab fa-gg-circle",
+    "fab fa-git",
+    "fab fa-git-square",
+    "fab fa-github",
+    "fab fa-github-alt",
+    "fab fa-github-square",
+    "fab fa-gitkraken",
+    "fab fa-gitlab",
+    "fab fa-gitter",
+    "fab fa-glide",
+    "fab fa-glide-g",
+    "fab fa-gofore",
+    "fab fa-goodreads",
+    "fab fa-goodreads-g",
+    "fab fa-google",
+    "fab fa-google-drive",
+    "fab fa-google-play",
+    "fab fa-google-plus",
+    "fab fa-google-plus-g",
+    "fab fa-google-plus-square",
+    "fab fa-google-wallet",
+    "fab fa-gratipay",
+    "fab fa-grav",
+    "fab fa-gripfire",
+    "fab fa-grunt",
+    "fab fa-gulp",
+    "fab fa-hacker-news",
+    "fab fa-hacker-news-square",
+    "fab fa-hips",
+    "fab fa-hire-a-helper",
+    "fab fa-hooli",
+    "fab fa-hotjar",
+    "fab fa-houzz",
+    "fab fa-html5",
+    "fab fa-hubspot",
+    "fab fa-imdb",
+    "fab fa-instagram",
+    "fab fa-internet-explorer",
+    "fab fa-ioxhost",
+    "fab fa-itunes",
+    "fab fa-itunes-note",
+    "fab fa-jenkins",
+    "fab fa-joget",
+    "fab fa-joomla",
+    "fab fa-js",
+    "fab fa-js-square",
+    "fab fa-jsfiddle",
+    "fab fa-keycdn",
+    "fab fa-kickstarter",
+    "fab fa-kickstarter-k",
+    "fab fa-korvue",
+    "fab fa-laravel",
+    "fab fa-lastfm",
+    "fab fa-lastfm-square",
+    "fab fa-leanpub",
+    "fab fa-less",
+    "fab fa-line",
+    "fab fa-linkedin",
+    "fab fa-linkedin-in",
+    "fab fa-linode",
+    "fab fa-linux",
+    "fab fa-lyft",
+    "fab fa-magento",
+    "fab fa-maxcdn",
+    "fab fa-medapps",
+    "fab fa-medium",
+    "fab fa-medium-m",
+    "fab fa-medrt",
+    "fab fa-meetup",
+    "fab fa-microsoft",
+    "fab fa-mix",
+    "fab fa-mixcloud",
+    "fab fa-mizuni",
+    "fab fa-modx",
+    "fab fa-monero",
+    "fab fa-napster",
+    "fab fa-nintendo-switch",
+    "fab fa-node",
+    "fab fa-node-js",
+    "fab fa-npm",
+    "fab fa-ns8",
+    "fab fa-nutritionix",
+    "fab fa-odnoklassniki",
+    "fab fa-odnoklassniki-square",
+    "fab fa-opencart",
+    "fab fa-openid",
+    "fab fa-opera",
+    "fab fa-optin-monster",
+    "fab fa-osi",
+    "fab fa-page4",
+    "fab fa-pagelines",
+    "fab fa-palfed",
+    "fab fa-patreon",
+    "fab fa-paypal",
+    "fab fa-periscope",
+    "fab fa-phabricator",
+    "fab fa-phoenix-framework",
+    "fab fa-php",
+    "fab fa-pied-piper",
+    "fab fa-pied-piper-alt",
+    "fab fa-pied-piper-pp",
+    "fab fa-pinterest",
+    "fab fa-pinterest-p",
+    "fab fa-pinterest-square",
+    "fab fa-playstation",
+    "fab fa-product-hunt",
+    "fab fa-pushed",
+    "fab fa-python",
+    "fab fa-qq",
+    "fab fa-quinscape",
+    "fab fa-quora",
+    "fab fa-ravelry",
+    "fab fa-react",
+    "fab fa-readme",
+    "fab fa-rebel",
+    "fab fa-red-river",
+    "fab fa-reddit",
+    "fab fa-reddit-alien",
+    "fab fa-reddit-square",
+    "fab fa-rendact",
+    "fab fa-renren",
+    "fab fa-replyd",
+    "fab fa-resolving",
+    "fab fa-rocketchat",
+    "fab fa-rockrms",
+    "fab fa-safari",
+    "fab fa-sass",
+    "fab fa-schlix",
+    "fab fa-scribd",
+    "fab fa-searchengin",
+    "fab fa-sellcast",
+    "fab fa-sellsy",
+    "fab fa-servicestack",
+    "fab fa-shirtsinbulk",
+    "fab fa-simplybuilt",
+    "fab fa-sistrix",
+    "fab fa-skyatlas",
+    "fab fa-skype",
+    "fab fa-slack",
+    "fab fa-slack-hash",
+    "fab fa-slideshare",
+    "fab fa-snapchat",
+    "fab fa-snapchat-ghost",
+    "fab fa-snapchat-square",
+    "fab fa-soundcloud",
+    "fab fa-speakap",
+    "fab fa-spotify",
+    "fab fa-stack-exchange",
+    "fab fa-stack-overflow",
+    "fab fa-staylinked",
+    "fab fa-steam",
+    "fab fa-steam-square",
+    "fab fa-steam-symbol",
+    "fab fa-sticker-mule",
+    "fab fa-strava",
+    "fab fa-stripe",
+    "fab fa-stripe-s",
+    "fab fa-studiovinari",
+    "fab fa-stumbleupon",
+    "fab fa-stumbleupon-circle",
+    "fab fa-superpowers",
+    "fab fa-supple",
+    "fab fa-telegram",
+    "fab fa-telegram-plane",
+    "fab fa-tencent-weibo",
+    "fab fa-themeisle",
+    "fab fa-trello",
+    "fab fa-tripadvisor",
+    "fab fa-tumblr",
+    "fab fa-tumblr-square",
+    "fab fa-twitch",
+    "fab fa-twitter",
+    "fab fa-twitter-square",
+    "fab fa-typo3",
+    "fab fa-uber",
+    "fab fa-uikit",
+    "fab fa-uniregistry",
+    "fab fa-untappd",
+    "fab fa-usb",
+    "fab fa-ussunnah",
+    "fab fa-vaadin",
+    "fab fa-viacoin",
+    "fab fa-viadeo",
+    "fab fa-viadeo-square",
+    "fab fa-viber",
+    "fab fa-vimeo",
+    "fab fa-vimeo-square",
+    "fab fa-vimeo-v",
+    "fab fa-vine",
+    "fab fa-vk",
+    "fab fa-vnv",
+    "fab fa-vuejs",
+    "fab fa-weibo",
+    "fab fa-weixin",
+    "fab fa-whatsapp",
+    "fab fa-whatsapp-square",
+    "fab fa-whmcs",
+    "fab fa-wikipedia-w",
+    "fab fa-windows",
+    "fab fa-wordpress",
+    "fab fa-wordpress-simple",
+    "fab fa-wpbeginner",
+    "fab fa-wpexplorer",
+    "fab fa-wpforms",
+    "fab fa-xbox",
+    "fab fa-xing",
+    "fab fa-xing-square",
+    "fab fa-y-combinator",
+    "fab fa-yahoo",
+    "fab fa-yandex",
+    "fab fa-yandex-international",
+    "fab fa-yelp",
+    "fab fa-yoast",
+    "fab fa-youtube",
+    "fab fa-youtube-square"
+];
+
+
+/***/ }),
+
+/***/ "./src/app/theme/editor/editor.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/theme/editor/editor.component.html ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"animated slideInUp\" id=\"editor\">\n\n  <div class=\"row\" id=\"acur\">\n    <div class=\"col-md-6\">\n\n      <div class=\"container\">\n        <div class=\"card cxs\" style=\"border: 0px;\">\n\n          <ul class=\"nav nav-pills mb-3\" id=\"pills-tab\" role=\"tablist\">\n            <li class=\"nav-item\" uk-tooltip=\"Blocks\">\n              <a class=\"nav-link active\" id=\"pills-home-tab\" data-toggle=\"pill\" href=\"#pills-home\" role=\"tab\" aria-controls=\"pills-home\"\n                aria-selected=\"true\"> <i class='fas fa-code'></i></a>\n            </li>\n            <li class=\"nav-item\" uk-tooltip=\"Links\">\n              <a class=\"nav-link\" id=\"pills-profile-tab\" data-toggle=\"pill\" href=\"#pills-profile\" role=\"tab\" aria-controls=\"pills-profile\"\n                aria-selected=\"false\"> <i class='fas fa-external-link-alt'></i> </a>\n            </li>\n            <li class=\"nav-item\" uk-tooltip=\"Images\">\n              <a class=\"nav-link\" id=\"pills-contact-tab\" data-toggle=\"pill\" href=\"#pills-contact\" role=\"tab\" aria-controls=\"pills-contact\"\n                aria-selected=\"false\"><i class='fas fa-image'></i> </a>\n            </li>\n            <li class=\"nav-item\" uk-tooltip=\"Markup code\">\n              <a class=\"nav-link\" id=\"pills-code-tab\" data-toggle=\"pill\" href=\"#pills-code\" role=\"tab\" aria-controls=\"pills-code\" aria-selected=\"false\"> <i class='far fa-file-code'></i> </a>\n            </li>\n            <li class=\"nav-item\" uk-tooltip=\"Icons\">\n              <a class=\"nav-link\" id=\"pills-icon-tab\" data-toggle=\"pill\" href=\"#pills-icon\" role=\"tab\" aria-controls=\"pills-icon\" aria-selected=\"false\"><i class='fas fa-font'></i> </a>\n            </li>\n            <li class=\"nav-item\" uk-tooltip=\"Style Script\">\n              <a class=\"nav-link\" id=\"pills-sty-tab\" data-toggle=\"pill\" href=\"#pills-sty\" role=\"tab\" aria-controls=\"pills-sty\" aria-selected=\"false\"><i class='fas fa-cogs'></i> </a>\n            </li>\n\n          </ul>\n          <div class=\"tab-content\" id=\"pills-tabContent\">\n            <div class=\"tab-pane fade show active\" id=\"pills-home\" role=\"tabpanel\" aria-labelledby=\"pills-home-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">Enter text</label>\n                  <textarea class=\"form-control\" [(ngModel)]=\"texter\" placeholder=\"Content area\" name=\"\" id=\"\" rows=\"3\"></textarea>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Class (.)</label>\n                  <input type=\"text\" [(ngModel)]=\"classit\" class=\"form-control\" placeholder=\"Seperate class names by space\" name=\"asd\" id=\"\"\n                    aria-describedby=\"helpId\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Seperate by space</small>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Id (#)</label>\n                  <input type=\"text\" [(ngModel)]=\"idit\" class=\"form-control\" placeholder=\"Seperate class names by space\" name=\"asd\" id=\"\" aria-describedby=\"helpId\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Seperate by space</small>\n                </div>\n                <div class=\"row\">\n\n                  <div class=\"col-md-12\">\n                    <div class=\" roasw text-center\">\n                      <i *ngIf=\"speech\" uk-tooltip=\"Start speech\" (click)=\"startSpeech('texter')\" class=\"w20 vs fas fa-headphones-alt\"></i>\n                      <i *ngIf=\"!speech\" uk-tooltip=\"Stop speech\" (click)=\"ngOnDestroy()\" class=\"vs w20 text-dark fas fa-headphones-alt\"></i>\n                      <i class='fas w20 vs fa-play' uk-tooltip=\"Play\" (click)=\"speak(texter)\"></i>\n                      <i class='fas w20 vs fa-pause' uk-tooltip=\"Pause\" (click)=\"pause()\"></i>\n                      <i class='fas w20 vs fa-stop' uk-tooltip=\"Stop\" (click)=\"resume()\"></i>\n                      <i class='far w20 vs fa-play-circle' uk-tooltip=\"Cancel\" (click)=\"cancel()\"></i>\n                      <br>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Paragraph\" (click)=\"genP()\">P</span>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Divison\" (click)=\"genDiv()\">Div</span>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Span\" (click)=\"genSPAN()\">Span</span>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Container\" (click)=\"getCon()\">Container</span>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Bold\" (click)=\"genB()\">B</span>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Row\" (click)=\"classit ='row'\">Row</span>\n                      <br>\n                      <span class=\"badge badge-danger w16\" uk-tooltip=\"Unordered List\" (click)=\"getUl()\">UL</span>\n                      <span class=\"badge badge-danger  w16\" uk-tooltip=\"List item\" (click)=\"getLi()\">LI</span>\n                      <span class=\"badge badge-danger w16\" uk-tooltip=\"Space\" (click)=\"outer='&nbsp;'\">SPACE</span>\n                      <span class=\"badge badge-danger w16\" uk-tooltip=\"Tab\" (click)=\"outer='&nbsp;&nbsp;&nbsp;&nbsp;'\">TAB</span>\n                      <span class=\"badge badge-warning w16\" uk-tooltip=\"Break\" (click)=\"outer='&lt;br&gt;'\">BR</span>\n                      <span class=\"badge badge-warning w16\" uk-tooltip=\"Line\" (click)=\"outer='&lt;hr&gt;'\">HR</span>\n\n                      <br>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"H1\" (click)=\"genH(1)\">H1</span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"H2\" (click)=\"genH(2)\">H2</span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"H3\" (click)=\"genH(3)\">H3</span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"H4\" (click)=\"genH(4)\">H4</span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"H5\" (click)=\"genH(5)\">H5</span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"H6\" (click)=\"genH(6)\">H6</span>\n                      <br>\n                      <span class=\"badge badge-dark  w16\" uk-tooltip=\"Alert dark\" (click)=\"classit = 'alert alert-dark'\"> <i class=\"fas fa-bell\"></i> </span>\n                      <span class=\"badge badge-danger w16\" uk-tooltip=\"Alert danger\" (click)=\"classit = 'alert alert-danger'\"> <i class=\"fas fa-bell\"></i> </span>\n                      <span class=\"badge badge-warning w16\" uk-tooltip=\"Alert warning\" (click)=\"classit = 'alert alert-warning'\"> <i class=\"fas fa-bell\"></i> </span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"Alert primary\" (click)=\"classit = 'alert alert-primary'\"> <i class=\"fas fa-bell\"></i> </span>\n                      <span class=\"badge badge-info w16\" uk-tooltip=\"Alert info\" (click)=\"classit = 'alert alert-info'\"> <i class=\"fas fa-bell\"></i> </span>\n                      <span class=\"badge badge-light w16\" uk-tooltip=\"Alert clear\" (click)=\"classit = ' '\"> <i class=\"fas fa-bell\"></i> </span>\n                      <br>\n                      <span class=\"badge badge-dark w16\" uk-tooltip=\"Badge dark\" (click)=\"classit = 'badge badge-dark'\"> <i class=\"fas fa-seedling\"></i> </span>\n                      <span class=\"badge badge-danger w16\" uk-tooltip=\"Badge danger\" (click)=\"classit = 'badge badge-danger'\"> <i class=\"fas fa-seedling\"></i> </span>\n                      <span class=\"badge badge-warning w16\" uk-tooltip=\"Badge warning\" (click)=\"classit = 'badge badge-warning'\"> <i class=\"fas fa-seedling\"></i> </span>\n                      <span class=\"badge badge-primary w16\" uk-tooltip=\"Badge primary\" (click)=\"classit = 'badge badge-primary'\"> <i class=\"fas fa-seedling\"></i> </span>\n                      <span class=\"badge badge-info w16\" uk-tooltip=\"Badge info\" (click)=\"classit = 'badge badge-info'\"> <i class=\"fas fa-seedling\"></i> </span>\n                      <span class=\"badge badge-light w16\" uk-tooltip=\"Badge clear\" (click)=\"classit = ' '\"> <i class=\"fas fa-bell\"></i> </span>\n                      <!---->\n                    </div>\n                  </div>\n                </div>\n\n              </div>\n            </div>\n            <div class=\"tab-pane fade\" id=\"pills-profile\" role=\"tabpanel\" aria-labelledby=\"pills-profile-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">Anchor src link</label>\n                  <input type=\"text\" [(ngModel)]=\"anc.link\" class=\"form-control\" name=\"sdd\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Anchor src link\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Use link without space</small>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Anchor class</label>\n                  <input type=\"text\" [(ngModel)]=\"anc.class\" class=\"form-control\" name=\"dfgfd\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Anchor class\">\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Anchor Id</label>\n                  <input type=\"text\" [(ngModel)]=\"anc.id\" class=\"form-control\" name=\"dfgdf\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Anchor Id\">\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Anchor text</label>\n                  <input type=\"text\" [(ngModel)]=\"anc.text\" class=\"form-control\" name=\"dfgdf\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Anchor text\">\n                </div>\n                <button type=\"button\" (click)=\"getAnc()\" class=\"btn btn-light\" style=\"float: right\"> Get Anchor</button>\n              </div>\n            </div>\n            <div class=\"tab-pane fade\" id=\"pills-contact\" role=\"tabpanel\" aria-labelledby=\"pills-contact-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">Image src link</label>\n                  <input type=\"text\" [(ngModel)]=\"img.link\" class=\"form-control\" name=\"sdd\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Image src link\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Use link without space</small>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Image class</label>\n                  <input type=\"text\" [(ngModel)]=\"img.class\" class=\"form-control\" name=\"dfgfd\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Image class\">\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Image Id</label>\n                  <input type=\"text\" [(ngModel)]=\"img.id\" class=\"form-control\" name=\"dfgdf\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Image Id\">\n                </div>\n                <button type=\"button\" (click)=\"getImg()\" class=\"btn btn-light\" style=\"float: right\"> Get Image</button>\n              </div>\n            </div>\n            <div class=\"tab-pane fade\" id=\"pills-code\" role=\"tabpanel\" aria-labelledby=\"pills-code-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">Code</label>\n                  <textarea [(ngModel)]=\"code.text\" class=\"form-control\" rows='5' name=\"sdd\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Code canvas\"></textarea>\n                  <small id=\"helpId\" class=\"form-text text-muted\">Canvas</small>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Code class</label>\n                  <input type=\"text\" [(ngModel)]=\"code.class\" class=\"form-control\" name=\"dfgfd\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Code class\">\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Code Rows</label>\n                  <input type=\"number\" [(ngModel)]=\"code.id\" class=\"form-control\" name=\"dfgdf\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Code Rows\">\n                </div>\n                <button type=\"button\" (click)=\"getCode()\" class=\"btn btn-light\" style=\"float: right\"> Get code</button>\n              </div>\n            </div>\n            <div class=\"tab-pane fade\" id=\"pills-icon\" role=\"tabpanel\" aria-labelledby=\"pills-icon-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">Font Awesome icons</label>\n                  <select class=\"form-control\" name=\"texter\" [(ngModel)]=\"fonter\" id=\"\">\n                    <option *ngFor=\"let item of fonts; let i=index\" value=\"{{item}}\" >{{item}}\n                      <i class=\"{{item}}\" style=\"float: right\"></i>\n                  </option>\n            </select>\n                </div>\n                <br>\n                <div class=\"form-group\">\n                  <label for=\"\">Search icon</label>\n                  <input type=\"text\" [(ngModel)]=\"sea \" class=\"form-control\" name=\"sea\" id=\"\" aria-describedby=\"helpId\" placeholder=\"\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Search by icon name</small>\n                </div>\n                <div class=\"card ico card-body\">\n                  <div class=\"\">\n                    <div class=\"row\">\n                      <div class=\"col-2 text-center iii\" *ngFor=\"let item of fonts | filterBy: sea ; let i=index\" (click)=\"fonter = item\" (click)=\"getIcon()\">\n                        <span class=\"\" (click)=\"fonter = item\" (click)=\"getIcon()\">   <i class=\"{{item}}\" (click)=\"fonter = item\" (click)=\"getIcon()\"></i> </span>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n                <br>\n                <button type=\"button\" (click)=\"getIcon()\" class=\"btn btn-light\" style=\"float: right\"> Get Icon</button></div>\n            </div>\n            <div class=\"tab-pane fade\" id=\"pills-sty\" role=\"tabpanel\" aria-labelledby=\"pills-sty-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">Css/Scss/Less Script</label>\n                  <textarea class=\"form-control\" placeholder=\"Place your style script\" [(ngModel)]=\"styler\" name=\"dfg\" id=\"\" rows=\"3\"></textarea>\n                </div>\n\n                <button type=\"button\" (click)=\"getSty()\" class=\"btn btn-light\" style=\"float: right\"> Get Style Script</button>\n              </div>\n            </div>\n            <div class=\"tab-pane fade\" id=\"pills-user\" role=\"tabpanel\" aria-labelledby=\"pills-user-tab\">\n              <div class=\"\">\n                <div class=\"form-group\">\n                  <label for=\"\">User name</label>\n                  <input type=\"text\" [(ngModel)]=\"credit.username\" class=\"form-control\" name=\"\" id=\"\" aria-describedby=\"helpId\" placeholder=\"\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Pecuiliar username</small>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Full name</label>\n                  <input type=\"text\" [(ngModel)]=\"credit.fullname\" class=\"form-control\" name=\"\" id=\"\" aria-describedby=\"helpId\" placeholder=\"\">\n                  <small id=\"helpId\" class=\"form-text text-muted\">Full name</small>\n                </div>\n                <div class=\"form-group\">\n                  <label for=\"\">Date</label>\n                  <input type=\"date\" [(ngModel)]=\"credit.date\" class=\"form-control\" name=\"\" id=\"\" aria-describedby=\"helpId\" placeholder=\"\">\n                </div>\n                <!--<button type=\"button\" (click)=\"getUser()\" class=\"btn btn-light\" style=\"float: right\"> User Card</button>-->\n              </div>\n            </div>\n          </div>\n          <br>\n        </div>\n      </div>\n    </div>\n    <div class=\"col-md-6\">\n      <br>\n      <div class=\"container\" *ngIf=\"board\">\n        <div class=\"animated pulse\">\n          <div class=\"form-group\">\n            <label for=\"\">Output</label>\n            <textarea class=\"form-control\" [(ngModel)]=\"outer\" name=\"\" id=\"\" rows=\"3\"></textarea>\n          </div>\n        </div>\n        <div [innerHTML]=\"outer|sanitaizer\"></div>\n        <!--<button type=\"button\" (click)=\"base = true\" (click)=\"outHtml()\" class=\"btn btn-light\" style=\"float: right\"> Base</button>-->\n        <a href=\"#preview\">\n         <button  uk-tooltip=\"Jump to preview\" class=\"btn  btn-sm siv animated zoomInUp btn-info\" (click)=\"pred = !pred\" style=\"float: right;margin:2px;\">\n          <span *ngIf=\"!pred\">  <i class='fas fa-eye'></i> Preview</span>\n          <span *ngIf=\"pred\">  <i class='fas fa-eye'></i> Close Preview</span>\n          </button>\n      </a>\n        <button class=\"btn  siv btn-sm animated zoomInUp btn-warning\" style=\"float: right;margin:2px;\" uk-tooltip=\"Copy Tag\" ngxClipboard\n          [cbContent]=\"outer\"> <i class='fas fa-copy'></i> Copy element</button>\n        <button type=\"button\" (click)=\"addTag()\" class=\"btn siv animated zoomInUp btn-sm  btn-dark\" uk-tooltip=\"Add item\" style=\"float: right;margin:2px;\"><i class='fas fa-plus'></i> Add element</button>\n        <button type=\"button\" (click)=\"outer = ''\" class=\"btn siv animated zoomInUp btn-sm  btn-danger\" uk-tooltip=\"Remove Tag\" style=\"float: right;margin:2px;\"><i class='fas fa-eraser'></i> Remove element</button>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-4\"> <button type=\"button\" uk-tooltip=\"Clear Everything\" (click)=\"gas = []\" (click)=\"baseHtml = ''\" (click)=\"outer = ''\"\n          class=\"btn   siv btn-sm btn-block btn-danger\" style=\"float: right\"><i class='fas fa-trash'></i> Clear</button>\n      </div>\n      <div class=\"col-md-4\">\n        <button class=\"btn siv btn-sm btn-block btn-warning\" uk-tooltip=\"Copy HTML\" (click)=\"copyday('Code copied  &amp; Id generated')\"\n          (click)=\"lod()\" (click)=\"ide = true\" [ngxClipboard]=\"inputTarget\"> <i class='fas fa-copy'></i> Copy</button>\n      </div>\n      <div class=\"col-md-4\">\n        <button class=\"btn siv btn-sm btn-block btn-dark\" uk-tooltip=\"Transcript into HTML\" (click)=\"copyday('Code copied  &amp; Id generated')\"\n          (click)=\"lod()\" (click)=\"cardinfo.id =  makeid(6)\" (click)=\"ide = true\" [ngxClipboard]=\"inputTarget\"> <i class='fas fa-copy'></i>  Transcript </button>\n      </div>\n    </div>\n    <br>\n    <div class=\"\" *ngIf=\"ide\">\n      <div class=\"form-group\" (click)=\"copyday('Filename copied')\" [ngxClipboard]=\"inputTarget4\">\n        <label for=\"\">File name &nbsp;<i class='far fa-file-alt'></i> </label>\n        <input type=\"text\" #inputTarget4 [(ngModel)]=\"cardinfo.id\" class=\"form-control\" readonly name=\"dfg\" id=\"\" aria-describedby=\"helpId\"\n          placeholder=\"\">\n        <small id=\"helpId\" class=\"form-text text-muted\">Use this ID as filename as {{ids}}.txt</small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"\">Title&nbsp;<i class='fas fa-address-book'></i> </label>\n        <input type=\"text\" [(ngModel)]=\"cardinfo.title\" class=\"form-control\" name=\"\" id=\"sdsd\" aria-describedby=\"helpId\" placeholder=\"Title for the page\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"\">Image&nbsp;<i class='fas fa-image'></i> </label>\n        <input type=\"text\" [(ngModel)]=\"cardinfo.image\" class=\"form-control\" name=\"\" id=\"ssdfasddsd\" aria-describedby=\"helpId\" placeholder=\"Link image the page\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"\">Blog &nbsp;<i class='fab fa-blogger'></i> </label>\n        <input type=\"text\" [(ngModel)]=\"cardinfo.blog\" class=\"form-control\" name=\"\" id=\"sdsdsd\" aria-describedby=\"helpId\" placeholder=\"Blog link for the page\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"\">Wordpress&nbsp; <i class='fas fa-file-word'></i></label>\n        <input type=\"text\" [(ngModel)]=\"cardinfo.word\" class=\"form-control\" name=\"\" id=\"sdasfafsd\" aria-describedby=\"helpId\" placeholder=\"Wordpress link\">\n      </div>\n\n      <button class=\"btn btn-sm btn-block btn-dark\" uk-tooltip=\"Copy JSON Script\" (click)=\"copyday('Copy Script for manipulating into Application')\"\n        *ngIf=\"ide\" [ngxClipboard]=\"inputTarget3\"> <i class=\"fas fa-copy\"></i> Copy script</button>\n      <div class=\"form-group\">\n        <label for=\"\">Script</label>\n        <textarea class=\"form-control\" #inputTarget3 name=\"\" id=\"\" rows=\"3\">\n            {{cardinfo|json}}\n          </textarea>\n      </div>\n    </div>\n\n    <!--<div class=\"alert as text-center alert-warning\" *ngIf=\"copy\">\n      <b>{{msg}}</b>\n    </div>-->\n    <!--<div class=\"\" *ngFor=\"let item of gas; let i=index\">\n    <div class=\"base\">\n      {{item}}</div> <br>\n  </div>-->\n  </div>\n\n  <div class=\"animated pulse\">\n    <div class=\"container\">\n      <div class=\"\" *ngFor=\"let item of gas; let i=index\">\n        <div class=\"\">\n          <span (click)=\"removeAt(i)\" class=\"badge exit badge-warning\">X</span>\n          <span class=\"badge exit badge-dark\">{{i}}</span>\n          <div [innerHTML]=\"item|sanitaizer\"> </div> <br>\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n  <div class=\"container \" [innerHTML]=\"renderer\"></div>\n</div>\n<!--<div id=\"snackbar\">{{msg}}</div>-->\n<div class=\"container\">\n  <div class=\"card\">\n    <div class=\"card-header\">\n      <H4 class=\" text-dark\">Base</H4>\n    </div>\n    <div class=\"card-body\" style=\"padding: 2px;\">\n      <div class=\"form-group\">\n        <textarea class=\"form-control\" placeholder=\"Actual code\" style=\"border: 0px;\" #inputTarget name=\"\" [(ngModel)]=\"baseHtml\"\n          id=\"\" rows=\"3\"></textarea>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"card animated zoomInUp\" style=\"  box-shadow: 0px 5px 5px 5px gainsboro;\" id=\"preview\" *ngIf=\"pred\">\n    <div class=\"card-header\">\n\n      <H4 class=\" text-dark\"> Preview Screen <i (click)=\"pred = false\" class='fas fa-eye'></i></H4>\n    </div>\n    <div class=\"card-body\">\n      <div class=\"container \" [innerHTML]=\"baseHtml\"></div>\n    </div>\n  </div>\n\n  <img *ngIf=\"loader\" style=\"width: 75px\" src=\"https://media1.giphy.com/media/rtRflhLVzbNWU/giphy.gif?cid=85b23e3f78cac52fedab6f25b1fe7e467e88ef275b322fa4&rid=giphy.gif\"\n    class=\"loader\" alt=\"\">\n</div>\n<hr class=\"uk-divider-icon\">\n<div class=\"container\">\n  <app-info id=\"ainfo\"></app-info>\n  <app-folders id=\"afol\"></app-folders>\n</div>\n\n<div class=\"anc\">\n  <a uk-tooltip=\"title:Editor;pos:left\" href=\"#acur\"><i class='fas fa-circle' ></i></a>\n  <a uk-tooltip=\"title:Read Me;pos:left\" href=\"#ainfo\"><i class='fas fa-circle' ></i></a>\n  <a uk-tooltip=\"title:Folders &amp; Files:Editor;pos:left\" href=\"#afol\"><i class='fas fa-circle' ></i></a>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/theme/editor/editor.component.scss":
+/*!****************************************************!*\
+  !*** ./src/app/theme/editor/editor.component.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "input {\n  border-radius: 0px; }\n\ntextarea {\n  border-radius: 0px; }\n\ninput:focus {\n  box-shadow: none;\n  outline: none; }\n\ntextarea:focus {\n  box-shadow: none;\n  outline: none; }\n\n::-webkit-input-placeholder {\n  color: #67a3fd;\n  font-size: 12px; }\n\n::-moz-selection {\n  color: lightcyan;\n  background-color: #0d47a1;\n  border-radius: 15px; }\n\n::selection {\n  color: lightcyan;\n  background-color: #0d47a1;\n  border-radius: 15px; }\n\n.card {\n  margin: 5px 0px 5px 0px; }\n\nbutton {\n  margin: 2px 0px 2px 0px; }\n\n.exit {\n  float: right;\n  margin: 5px;\n  cursor: pointer; }\n\n.cxs {\n  padding: 5px; }\n\n.base {\n  border-radius: 5px;\n  background-color: lightgray;\n  color: black;\n  padding: 5px;\n  margin: 3px; }\n\n.center {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 50%;\n  padding: 10px; }\n\n* {\n  word-wrap: break-word; }\n\nimg {\n  width: 50%; }\n\n.alert {\n  width: 100%; }\n\n.code {\n  background-color: lightgray;\n  padding: 5px;\n  border-radius: 5px;\n  color: white; }\n\n.nav-item .active {\n  background-color: white;\n  border-bottom: 1.5px solid #67a3fd;\n  border-radius: 0px;\n  color: #67a3fd;\n  -webkit-transition: border-bottom 2s ease-out;\n  transition: border-bottom 2s ease-out; }\n\n.as {\n  margin: 3px;\n  padding: 7px; }\n\n.nav-link {\n  color: black;\n  font-weight: bold; }\n\n.ico {\n  height: 200px;\n  overflow: auto;\n  width: 100%; }\n\n.iii {\n  font-size: 28px; }\n\n.iii:hover {\n  border: 1px dotted black;\n  border-radius: 3px;\n  font-size: 26px;\n  text-align: center;\n  cursor: pointer;\n  color: black; }\n\nlabel {\n  color: #00b0ff; }\n\ninput {\n  font-size: 12px; }\n\ninput:focus {\n  border: 1px solid black; }\n\ntextarea:focus {\n  border: 1px solid black; }\n\n.card-header {\n  background-color: white; }\n\n.siv {\n  background-color: #67a3fd;\n  color: white;\n  margin: auto;\n  border: none;\n  width: 100%;\n  margin-top: 3px;\n  margin-bottom: 3px; }\n\n.siv:hover {\n  background-color: white;\n  color: #67a3fd;\n  -webkit-transition: 0.5s color ease-in-out;\n  transition: 0.5s color ease-in-out; }\n\n.badge {\n  padding: 10px;\n  margin: 5px; }\n\n.vs {\n  color: white;\n  background-color: #0d47a1;\n  padding: 10px;\n  font-size: 15px; }\n\n.vs:hover {\n  color: #0d47a1;\n  background-color: white;\n  padding: 10px;\n  font-size: 15px; }\n\n.badge {\n  cursor: pointer; }\n\n.su {\n  color: #67a3fd;\n  text-align: right;\n  padding: -5px;\n  margin: -2px; }\n\n@media screen and (max-height: 768px) {\n  .wm {\n    display: none; }\n  .subs {\n    display: none; }\n  .roasw {\n    text-align: center; }\n  .w25 {\n    width: 21%; }\n  .w16 {\n    width: 13%; }\n  .w20 {\n    width: 17.9%; } }\n\n.nav-item {\n  width: 16.66%;\n  text-align: center; }\n\n.anc {\n  display: grid;\n  position: fixed;\n  right: 0;\n  top: 45%;\n  z-index: 1030; }\n\n.anc i {\n    margin: 5px; }\n\n.w25 {\n  width: 22%; }\n\n.w16 {\n  width: 14%; }\n\n.w20 {\n  width: 18.9%; }\n\n.table-mob {\n  width: 100%;\n  overflow: auto; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGhlbWUvZWRpdG9yL0M6XFxVc2Vyc1xcbWFub211dGhcXERlc2t0b3BcXFdvcmtGcm9tSGVyZVxcU3RhcnRIZXJlXFxhcHBsaWNhdGlvbi13b3JrSGVyZVxcYXNwaS1jc3Mvc3JjXFxhcHBcXHRoZW1lXFxlZGl0b3JcXGVkaXRvci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVQTtFQUNFLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLG1CQUFrQixFQUNuQjs7QUFDRDtFQUNFLGlCQUFnQjtFQUNoQixjQUFhLEVBQ2Q7O0FBQ0Q7RUFDRSxpQkFBZ0I7RUFDaEIsY0FBYSxFQUNkOztBQUNEO0VBQ0UsZUFBYztFQUNkLGdCQUFlLEVBQ2hCOztBQUNEO0VBQ0UsaUJBQWdCO0VBQ2hCLDBCQXRCaUI7RUF1QmpCLG9CQUFtQixFQUNwQjs7QUFKRDtFQUNFLGlCQUFnQjtFQUNoQiwwQkF0QmlCO0VBdUJqQixvQkFBbUIsRUFDcEI7O0FBQ0Q7RUFDRSx3QkFBdUIsRUFDeEI7O0FBQ0Q7RUFDRSx3QkFBdUIsRUFDeEI7O0FBQ0Q7RUFDRSxhQUFZO0VBQ1osWUFBVztFQUNYLGdCQUFlLEVBQ2hCOztBQUNEO0VBQ0UsYUFBWSxFQUViOztBQUNEO0VBQ0UsbUJBQWtCO0VBQ2xCLDRCQUEyQjtFQUMzQixhQUFZO0VBQ1osYUFBWTtFQUNaLFlBQVcsRUFDWjs7QUFDRDtFQUNFLGVBQWM7RUFDZCxrQkFBaUI7RUFDakIsbUJBQWtCO0VBQ2xCLFdBQVU7RUFDVixjQUFhLEVBQ2Q7O0FBQ0Q7RUFDRSxzQkFBcUIsRUFDdEI7O0FBRUQ7RUFDRSxXQUFVLEVBQ1g7O0FBRUQ7RUFDRSxZQUFXLEVBQ1o7O0FBRUQ7RUFDRSw0QkFBMkI7RUFDM0IsYUFBWTtFQUNaLG1CQUFrQjtFQUNsQixhQUFZLEVBQ2I7O0FBQ0Q7RUFFSSx3QkFBdUI7RUFDdkIsbUNBQWtDO0VBQ2xDLG1CQUFrQjtFQUNsQixlQUFjO0VBQ2QsOENBQXFDO0VBQXJDLHNDQUFxQyxFQUV0Qzs7QUFFSDtFQUNFLFlBQVc7RUFDWCxhQUFZLEVBQ2I7O0FBQ0Q7RUFDRSxhQUFZO0VBQ1osa0JBQWlCLEVBQ2xCOztBQUNEO0VBQ0UsY0FBYTtFQUNiLGVBQWM7RUFDZCxZQUFXLEVBQ1o7O0FBQ0Q7RUFDRSxnQkFBZSxFQUNoQjs7QUFFRDtFQUNFLHlCQUF3QjtFQUN4QixtQkFBa0I7RUFFbEIsZ0JBQWU7RUFDZixtQkFBa0I7RUFDbEIsZ0JBQWU7RUFDZixhQUFZLEVBQ2I7O0FBQ0Q7RUFDRSxlQXBIa0IsRUFxSG5COztBQUNEO0VBQ0UsZ0JBQWUsRUFDaEI7O0FBQ0Q7RUFDRSx3QkFBdUIsRUFDeEI7O0FBRUQ7RUFDRSx3QkFBdUIsRUFDeEI7O0FBQ0Q7RUFDRSx3QkFBdUIsRUFDeEI7O0FBRUQ7RUFDRSwwQkFBeUI7RUFDekIsYUFBWTtFQUNaLGFBQVk7RUFDWixhQUFZO0VBRVosWUFBVztFQUNYLGdCQUFlO0VBQ2YsbUJBQWtCLEVBQ25COztBQUNEO0VBQ0Usd0JBQXVCO0VBQ3ZCLGVBQWM7RUFFZCwyQ0FBa0M7RUFBbEMsbUNBQWtDLEVBQ25DOztBQUNEO0VBQ0UsY0FBYTtFQUNiLFlBQVcsRUFDWjs7QUFDRDtFQUNFLGFBQVk7RUFDWiwwQkFuSmlCO0VBb0pqQixjQUFhO0VBQ2IsZ0JBQWUsRUFDaEI7O0FBQ0Q7RUFDRSxlQXhKaUI7RUF5SmpCLHdCQUF1QjtFQUN2QixjQUFhO0VBQ2IsZ0JBQWUsRUFDaEI7O0FBQ0Q7RUFDRSxnQkFBZSxFQUNoQjs7QUFDRDtFQUNFLGVBQWM7RUFFZCxrQkFBaUI7RUFDakIsY0FBYTtFQUNiLGFBQVksRUFDYjs7QUFDRDtFQUNFO0lBQ0UsY0FBYSxFQUNkO0VBQ0Q7SUFDRSxjQUFhLEVBQ2Q7RUFDRDtJQUNFLG1CQUFrQixFQUNuQjtFQUNEO0lBQ0UsV0FBVSxFQUNYO0VBQ0Q7SUFDRSxXQUFVLEVBQ1g7RUFDRDtJQUNFLGFBQVksRUFDYixFQUFBOztBQUVIO0VBQ0UsY0FBYTtFQUNiLG1CQUFrQixFQUNuQjs7QUFFRDtFQUNFLGNBQWE7RUFDYixnQkFBZTtFQUNmLFNBQVE7RUFDUixTQUFRO0VBQ1IsY0FBYSxFQUlkOztBQVREO0lBT0ksWUFBVyxFQUNaOztBQUdIO0VBQ0UsV0FBVSxFQUNYOztBQUNEO0VBQ0UsV0FBVSxFQUNYOztBQUNEO0VBQ0UsYUFBWSxFQUNiOztBQUNEO0VBQ0UsWUFBVztFQUNYLGVBQWMsRUFDZiIsImZpbGUiOiJzcmMvYXBwL3RoZW1lL2VkaXRvci9lZGl0b3IuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkYXMtYmFzZTogIzAwMDAwMDtcclxuJGFzLXByaW1hcnk6ICMwMGIwZmY7XHJcbiRhcy1kYW5nZXI6ICNkNTAwMDA7XHJcbiRhcy1zdWNjZXNzOiAjYWVlYTAwO1xyXG4kYXMtaW5mbzogI2IzZTVmYztcclxuJGFzLXdhcm5pbmc6ICNmZmFiMDA7XHJcbiRhcy1saWdodDogI2UwZTBlMDtcclxuJGFzLWRhcms6ICM3ODkwOWM7XHJcbiRhcy13aW5uZXI6ICMwZDQ3YTE7XHJcbiRhcy1oYXBweTogI2Q4MWI2MDtcclxuaW5wdXQge1xyXG4gIGJvcmRlci1yYWRpdXM6IDBweDtcclxufVxyXG50ZXh0YXJlYSB7XHJcbiAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG59XHJcbmlucHV0OmZvY3VzIHtcclxuICBib3gtc2hhZG93OiBub25lO1xyXG4gIG91dGxpbmU6IG5vbmU7XHJcbn1cclxudGV4dGFyZWE6Zm9jdXMge1xyXG4gIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgb3V0bGluZTogbm9uZTtcclxufVxyXG46Oi13ZWJraXQtaW5wdXQtcGxhY2Vob2xkZXIge1xyXG4gIGNvbG9yOiAjNjdhM2ZkO1xyXG4gIGZvbnQtc2l6ZTogMTJweDtcclxufVxyXG46OnNlbGVjdGlvbiB7XHJcbiAgY29sb3I6IGxpZ2h0Y3lhbjtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkYXMtd2lubmVyO1xyXG4gIGJvcmRlci1yYWRpdXM6IDE1cHg7XHJcbn1cclxuLmNhcmQge1xyXG4gIG1hcmdpbjogNXB4IDBweCA1cHggMHB4O1xyXG59XHJcbmJ1dHRvbiB7XHJcbiAgbWFyZ2luOiAycHggMHB4IDJweCAwcHg7XHJcbn1cclxuLmV4aXQge1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBtYXJnaW46IDVweDtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLmN4cyB7XHJcbiAgcGFkZGluZzogNXB4O1xyXG4gIC8vICAgbWFyZ2luOiAtNXB4O1xyXG59XHJcbi5iYXNlIHtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1xyXG4gIGNvbG9yOiBibGFjaztcclxuICBwYWRkaW5nOiA1cHg7XHJcbiAgbWFyZ2luOiAzcHg7XHJcbn1cclxuLmNlbnRlciB7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gIHdpZHRoOiA1MCU7XHJcbiAgcGFkZGluZzogMTBweDtcclxufVxyXG4qIHtcclxuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XHJcbn1cclxuXHJcbmltZyB7XHJcbiAgd2lkdGg6IDUwJTtcclxufVxyXG5cclxuLmFsZXJ0IHtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuLmNvZGUge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcclxuICBwYWRkaW5nOiA1cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxufVxyXG4ubmF2LWl0ZW0ge1xyXG4gIC5hY3RpdmUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3JkZXItYm90dG9tOiAxLjVweCBzb2xpZCAjNjdhM2ZkO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgY29sb3I6ICM2N2EzZmQ7XHJcbiAgICB0cmFuc2l0aW9uOiBib3JkZXItYm90dG9tIDJzIGVhc2Utb3V0O1xyXG4gICAgLy8gYm94LXNoYWRvdzogMHB4IDVweCAzcHggZ2FpbnNib3JvO1xyXG4gIH1cclxufVxyXG4uYXMge1xyXG4gIG1hcmdpbjogM3B4O1xyXG4gIHBhZGRpbmc6IDdweDtcclxufVxyXG4ubmF2LWxpbmsge1xyXG4gIGNvbG9yOiBibGFjaztcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4uaWNvIHtcclxuICBoZWlnaHQ6IDIwMHB4O1xyXG4gIG92ZXJmbG93OiBhdXRvO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcbi5paWkge1xyXG4gIGZvbnQtc2l6ZTogMjhweDtcclxufVxyXG5cclxuLmlpaTpob3ZlciB7XHJcbiAgYm9yZGVyOiAxcHggZG90dGVkIGJsYWNrO1xyXG4gIGJvcmRlci1yYWRpdXM6IDNweDtcclxuICAvLyAgIHBhZGRpbmc6IDNweDtcclxuICBmb250LXNpemU6IDI2cHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBjb2xvcjogYmxhY2s7XHJcbn1cclxubGFiZWwge1xyXG4gIGNvbG9yOiAkYXMtcHJpbWFyeTtcclxufVxyXG5pbnB1dCB7XHJcbiAgZm9udC1zaXplOiAxMnB4O1xyXG59XHJcbmlucHV0OmZvY3VzIHtcclxuICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxufVxyXG5cclxudGV4dGFyZWE6Zm9jdXMge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG59XHJcbi5jYXJkLWhlYWRlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi5zaXYge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICM2N2EzZmQ7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBib3JkZXI6IG5vbmU7XHJcbiAgLy8gICBkaXNwbGF5OiBibG9jaztcclxuICB3aWR0aDogMTAwJTtcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgbWFyZ2luLWJvdHRvbTogM3B4O1xyXG59XHJcbi5zaXY6aG92ZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIGNvbG9yOiAjNjdhM2ZkO1xyXG4gIC8vIGJvcmRlcjogMXB4IHNvbGlkICM2N0EzRkQ7XHJcbiAgdHJhbnNpdGlvbjogMC41cyBjb2xvciBlYXNlLWluLW91dDtcclxufVxyXG4uYmFkZ2Uge1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgbWFyZ2luOiA1cHg7XHJcbn1cclxuLnZzIHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogJGFzLXdpbm5lcjtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIGZvbnQtc2l6ZTogMTVweDtcclxufVxyXG4udnM6aG92ZXIge1xyXG4gIGNvbG9yOiAkYXMtd2lubmVyO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgZm9udC1zaXplOiAxNXB4O1xyXG59XHJcbi5iYWRnZSB7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5zdSB7XHJcbiAgY29sb3I6ICM2N2EzZmQ7XHJcbiAgLy8gZGlzcGxheTogdGFibGU7XHJcbiAgdGV4dC1hbGlnbjogcmlnaHQ7XHJcbiAgcGFkZGluZzogLTVweDtcclxuICBtYXJnaW46IC0ycHg7XHJcbn1cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC1oZWlnaHQ6IDc2OHB4KSB7XHJcbiAgLndtIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG4gIC5zdWJzIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG4gIC5yb2FzdyB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgfVxyXG4gIC53MjUge1xyXG4gICAgd2lkdGg6IDIxJTtcclxuICB9XHJcbiAgLncxNiB7XHJcbiAgICB3aWR0aDogMTMlO1xyXG4gIH1cclxuICAudzIwIHtcclxuICAgIHdpZHRoOiAxNy45JTtcclxuICB9XHJcbn1cclxuLm5hdi1pdGVtIHtcclxuICB3aWR0aDogMTYuNjYlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmFuYyB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgcmlnaHQ6IDA7XHJcbiAgdG9wOiA0NSU7XHJcbiAgei1pbmRleDogMTAzMDtcclxuICBpIHtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gIH1cclxufVxyXG5cclxuLncyNSB7XHJcbiAgd2lkdGg6IDIyJTtcclxufVxyXG4udzE2IHtcclxuICB3aWR0aDogMTQlO1xyXG59XHJcbi53MjAge1xyXG4gIHdpZHRoOiAxOC45JTtcclxufVxyXG4udGFibGUtbW9iIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBvdmVyZmxvdzogYXV0bztcclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/theme/editor/editor.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/theme/editor/editor.component.ts ***!
+  \**************************************************/
+/*! exports provided: EditorComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditorComponent", function() { return EditorComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var html_formatter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! html-formatter */ "./node_modules/html-formatter/index.js");
+/* harmony import */ var html_formatter__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(html_formatter__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var src_app_services_speech__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/services/speech */ "./src/app/services/speech.ts");
+/* harmony import */ var src_app_theme_editor_FONT__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/theme/editor/FONT */ "./src/app/theme/editor/FONT.ts");
+/* harmony import */ var speak_tts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! speak-tts */ "./node_modules/speak-tts/lib/speak-tts.js");
+/* harmony import */ var speak_tts__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(speak_tts__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+
+ // es6
+var speech = new speak_tts__WEBPACK_IMPORTED_MODULE_6___default.a(); // will throw an exception if not browser supported
+if (speech.hasBrowserSupport()) {
+    // returns a boolean
+    console.log("speech synthesis supported");
+}
+var EditorComponent = /** @class */ (function () {
+    function EditorComponent(http, speechRecognitionService) {
+        this.http = http;
+        this.speechRecognitionService = speechRecognitionService;
+        this.speech = true;
+        this.fonts = src_app_theme_editor_FONT__WEBPACK_IMPORTED_MODULE_5__["FONT"];
+        this.msg = "Some msg";
+        this.img = {
+            link: "",
+            class: "center",
+            id: ""
+        };
+        this.anc = {
+            link: "",
+            class: "center",
+            id: "",
+            text: ""
+        };
+        this.credit = {
+            username: "",
+            fullname: "",
+            date: ""
+        };
+        this.code = {
+            text: "",
+            class: "",
+            id: " "
+        };
+        this.cardinfo = {
+            id: "",
+            title: "",
+            word: "",
+            blogger: "",
+            version: "",
+            image: ""
+        };
+        this.gas = [];
+        this.texter = "";
+        this.copy = false;
+        this.pred = false;
+        this.classit = "";
+        this.idit = "";
+        this.sea = "";
+    }
+    EditorComponent.prototype.ngOnDestroy = function () {
+        this.speech = true;
+        this.speechRecognitionService.DestroySpeechObject();
+    };
+    EditorComponent.prototype.startSpeech = function () {
+        var _this = this;
+        this.speech = false;
+        this.speechRecognitionService.record().subscribe(function (value) {
+            _this.texter = value;
+            console.log(value);
+            _this.snacks(value);
+        }, function (err) {
+            console.log(err);
+            if (err.error === "no-speech") {
+                _this.speech = true;
+                console.log("--restatring service--");
+            }
+        }
+        // ,
+        // () => {
+        //   this.speech = true;
+        //   console.log("--complete--");
+        //   // this.startSpeech();
+        // }
+        );
+    };
+    EditorComponent.prototype.ngOnInit = function () {
+        this.baseHtml = JSON.parse(window.localStorage.getItem("power"));
+        speech
+            .init({
+            volume: 1,
+            lang: "en-GB",
+            rate: 1,
+            pitch: 1,
+            voice: "Google UK English Male",
+            splitSentences: true,
+            listeners: {
+                onvoiceschanged: function (voices) {
+                    // console.log("Event voiceschanged", voices);
+                }
+            }
+        })
+            .then(function (data) {
+            // The "data" object contains the list of available voices and the voice synthesis params
+            console.log("Speech is ready, voices are available", data);
+        })
+            .catch(function (e) {
+            console.error("An error occured while initializing : ", e);
+        });
+    };
+    EditorComponent.prototype.speak = function (t) {
+        speech
+            .speak({
+            text: t
+        })
+            .then(function () {
+            console.log("Success !");
+        })
+            .catch(function (e) {
+            console.error("An error occurred :", e);
+        });
+    };
+    EditorComponent.prototype.pause = function () {
+        speak_tts__WEBPACK_IMPORTED_MODULE_6___default.a.pause();
+    };
+    EditorComponent.prototype.cancel = function () {
+        speak_tts__WEBPACK_IMPORTED_MODULE_6___default.a.cancel();
+    };
+    EditorComponent.prototype.resume = function () {
+        speak_tts__WEBPACK_IMPORTED_MODULE_6___default.a.resume();
+    };
+    EditorComponent.prototype.copyday = function (msg) {
+        var _this = this;
+        this.copy = true;
+        this.msg = msg;
+        setTimeout(function () {
+            _this.copy = false;
+        }, 10000);
+    };
+    EditorComponent.prototype.addTag = function () {
+        this.gas.push(this.outer);
+        this.outHtml();
+    };
+    EditorComponent.prototype.removeAt = function (i) {
+        console.log(i);
+        this.gas.splice(i, 1);
+        this.outHtml();
+    };
+    EditorComponent.prototype.getIcon = function () {
+        this.board = true;
+        this.outer = "<i class='" + this.fonter + "'></i>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.getSty = function () {
+        this.board = true;
+        this.outer = "<style>" + this.styler + "</style>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.getCode = function () {
+        this.board = true;
+        this.code.text = this.code.text.replace(/(^[ \t]*\n)/gm, "");
+        this.code.text = html_formatter__WEBPACK_IMPORTED_MODULE_2___default.a.render(this.code.text);
+        // this.code.text = this.code.text.replace([/</], "&lt;");
+        // this.code.text = this.code.text.replace([/>/], "&gt;");
+        this.outer =
+            "<textarea class='code " +
+                this.code.class +
+                " form-control' rows='" +
+                this.code.id +
+                "' >" +
+                this.code.text +
+                "</textarea><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.getImg = function () {
+        this.board = true;
+        this.outer =
+            "<img style='width:50%;margin:auto;display:block;padding:10px;' src='" +
+                this.img.link +
+                "' class='" +
+                this.img.class +
+                "' id='" +
+                this.img.id +
+                "' /><br>";
+        this.outHtml();
+        this.img.link = "";
+    };
+    EditorComponent.prototype.getAnc = function () {
+        this.board = true;
+        this.outer =
+            "<a href='" +
+                this.anc.link +
+                "' class='" +
+                this.anc.class +
+                "' id='" +
+                this.anc.id +
+                "' >" +
+                this.anc.text +
+                "</a>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.getCon = function () {
+        this.board = true;
+        this.outer =
+            "<div class='container " +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' >" +
+                this.texter +
+                "</div><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.getUl = function () {
+        this.board = true;
+        this.outer =
+            "<ul class='list-group " +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' >" +
+                this.texter +
+                "</ul><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.getLi = function () {
+        this.board = true;
+        this.outer =
+            "<li class='list-group-item " +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' >" +
+                this.texter +
+                "</li> ";
+        this.outHtml();
+    };
+    EditorComponent.prototype.genP = function () {
+        this.board = true;
+        this.outer =
+            "<p class='" +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' >" +
+                this.texter +
+                "</p><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.lod = function () {
+        var _this = this;
+        this.loader = true;
+        setTimeout(function () {
+            _this.loader = false;
+        }, 2500);
+    };
+    EditorComponent.prototype.genB = function () {
+        this.board = true;
+        this.outer = "<b>" + this.texter + "</b>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.genSPAN = function () {
+        this.board = true;
+        this.outer =
+            "<span class='" +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' >" +
+                this.texter +
+                "</span><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.genDiv = function () {
+        this.board = true;
+        this.outer =
+            "<div class='" +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "'>" +
+                this.texter +
+                "</div><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.genH = function (u) {
+        this.board = true;
+        this.outer =
+            "<h" +
+                u +
+                " class='" +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' " +
+                ">" +
+                this.texter +
+                "</h" +
+                u +
+                "><br>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.genA = function () {
+        this.board = true;
+        this.outer =
+            "<a class='" +
+                this.classit +
+                "' id='" +
+                this.idit +
+                "' href='" +
+                this.texter +
+                "' >" +
+                this.texter +
+                "</a>";
+        this.outHtml();
+    };
+    EditorComponent.prototype.outHtml = function () {
+        this.base = true;
+        // this.ide = true;
+        // this.ids = this.makeid(6);
+        this.texter = "";
+        this.baseHtml = this.gas.join(" ");
+        window.localStorage.setItem("power", JSON.stringify(this.baseHtml));
+        this.baseHtml = html_formatter__WEBPACK_IMPORTED_MODULE_2___default.a.render(this.baseHtml);
+    };
+    EditorComponent.prototype.genBR = function () {
+        this.board = true;
+        this.outer = "<br>";
+    };
+    EditorComponent.prototype.makeid = function (length) {
+        var result = "";
+        var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        var charactersLength = characters.length;
+        for (var i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    };
+    EditorComponent.prototype.snacks = function (msg) {
+        // Get the snackbar DIV
+        var x = document.getElementById("snackbar");
+        this.msg = msg;
+        // Add the "show" class to DIV
+        x.className = "show";
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function () {
+            x.className = x.className.replace("show", "");
+        }, 5000);
+    };
+    EditorComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: "app-editor",
+            template: __webpack_require__(/*! ./editor.component.html */ "./src/app/theme/editor/editor.component.html"),
+            styles: [__webpack_require__(/*! ./editor.component.scss */ "./src/app/theme/editor/editor.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"],
+            src_app_services_speech__WEBPACK_IMPORTED_MODULE_4__["SpeechRecognitionService"]])
+    ], EditorComponent);
+    return EditorComponent;
 }());
 
 
